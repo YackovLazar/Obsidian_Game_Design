@@ -18,8 +18,7 @@
 		{"id":"4a372e9b1aa9c8df","type":"text","text":"Dexterity","x":-760,"y":-452,"width":250,"height":60,"color":"4"},
 		{"id":"316c6e305c726c14","type":"text","text":"Wisdom","x":-760,"y":-370,"width":250,"height":60,"color":"6"},
 		{"id":"a80f768d4dabe5f3","type":"text","text":"Rolling:\n5d4 drop 1\n","x":-340,"y":90,"width":250,"height":70},
-		{"id":"22735e296f5dae07","type":"text","text":"Constitution","x":-760,"y":65,"width":250,"height":60,"color":"3"},
-		{"id":"42046e5edf10285e","x":15,"y":20,"width":250,"height":60,"type":"text","text":"Testing"}
+		{"id":"22735e296f5dae07","type":"text","text":"Constitution","x":-760,"y":65,"width":250,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"c911040c9da576f1","fromNode":"4a372e9b1aa9c8df","fromSide":"right","toNode":"229878e5b0ddcc91","toSide":"left","color":"4"},
