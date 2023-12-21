@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"44f59c46a42d7dbe","type":"text","text":"Elementalist","x":-120,"y":-560,"width":250,"height":60},
+		{"id":"7b19702e0db07f35","type":"text","text":"Pyromancer","x":-600,"y":-360,"width":250,"height":60,"color":"1"},
+		{"id":"bbc8646ebdeffba7","type":"text","text":"Cryomancer","x":-120,"y":-360,"width":250,"height":60,"color":"5"},
+		{"id":"ceeefa8926d581fc","type":"text","text":"Fulguromancer","x":340,"y":-360,"width":250,"height":60,"color":"#5877eb"},
+		{"id":"c82838b2514b25d1","type":"text","text":"LvL 1","x":-800,"y":-360,"width":120,"height":60},
+		{"id":"5869950711a2b87c","type":"text","text":"Cantrip","x":-805,"y":-230,"width":125,"height":60},
+		{"id":"aea33f7f6401894a","type":"text","text":"Ignite: Single Target\nDmg: 1d6 + Int\nAblaze (2): takes 1d4 dmg on turn.","x":-625,"y":-260,"width":300,"height":120,"color":"1"},
+		{"id":"40327c59640dd43a","type":"text","text":"Icy Shard: Single Target\nDmg: 2d4 + Int\nFrost (2): loses 5ft of movement\n","x":-145,"y":-260,"width":300,"height":120,"color":"5"},
+		{"id":"30bfe391b50ba0dd","type":"text","text":"Spark: Single Target\nDmg: 1d6 + Charges + Int\nCharged (2): Charges +1","x":325,"y":-260,"width":280,"height":120,"color":"#5877eb"},
+		{"id":"ab5ae3f682cc88d7","type":"text","text":"2 LvL 1 Elementalist or Pyromancer spells","x":-625,"y":-100,"width":300,"height":90,"color":"1"},
+		{"id":"ffa785e3078608e8","x":-802,"y":-85,"width":125,"height":60,"type":"text","text":"Spell"},
+		{"id":"3872d5b799d599bc","type":"text","text":"2 LvL 1 Elementalist or Cryomancer spells","x":-145,"y":-100,"width":300,"height":90,"color":"5"},
+		{"id":"a1a6bae439c05c56","type":"text","text":"2 LvL 1 Elementalist or Fulguromancer spells","x":325,"y":-100,"width":280,"height":90,"color":"#5877eb"}
+	],
+	"edges":[
+		{"id":"464024295e0fe274","fromNode":"44f59c46a42d7dbe","fromSide":"bottom","toNode":"7b19702e0db07f35","toSide":"top","color":"1"},
+		{"id":"de435635c6c8397d","fromNode":"44f59c46a42d7dbe","fromSide":"bottom","toNode":"bbc8646ebdeffba7","toSide":"top","color":"5"},
+		{"id":"2c567cd321a226f6","fromNode":"44f59c46a42d7dbe","fromSide":"bottom","toNode":"ceeefa8926d581fc","toSide":"top","color":"#4f78f3"},
+		{"id":"792052c9211fade8","fromNode":"7b19702e0db07f35","fromSide":"bottom","toNode":"aea33f7f6401894a","toSide":"top","color":"1"},
+		{"id":"4bec2c564232cc17","fromNode":"5869950711a2b87c","fromSide":"right","toNode":"aea33f7f6401894a","toSide":"left","toEnd":"none"},
+		{"id":"25038d160c0df836","fromNode":"c82838b2514b25d1","fromSide":"right","toNode":"7b19702e0db07f35","toSide":"left","toEnd":"none"},
+		{"id":"166bcf1d4b3d4ca7","fromNode":"7b19702e0db07f35","fromSide":"right","toNode":"bbc8646ebdeffba7","toSide":"left","toEnd":"none"},
+		{"id":"a70fb56cf5e40d69","fromNode":"bbc8646ebdeffba7","fromSide":"right","toNode":"ceeefa8926d581fc","toSide":"left","toEnd":"none"},
+		{"id":"6f6bad272748ba99","fromNode":"aea33f7f6401894a","fromSide":"right","toNode":"40327c59640dd43a","toSide":"left","toEnd":"none"},
+		{"id":"3a8f14b906d356af","fromNode":"bbc8646ebdeffba7","fromSide":"bottom","toNode":"40327c59640dd43a","toSide":"top","color":"5"},
+		{"id":"397ddd6c4fecc32a","fromNode":"ceeefa8926d581fc","fromSide":"bottom","toNode":"30bfe391b50ba0dd","toSide":"top","color":"#5877eb"},
+		{"id":"c66f87734e6746d7","fromNode":"40327c59640dd43a","fromSide":"right","toNode":"30bfe391b50ba0dd","toSide":"left","toEnd":"none"},
+		{"id":"d7da5018b490103b","fromNode":"aea33f7f6401894a","fromSide":"bottom","toNode":"ab5ae3f682cc88d7","toSide":"top","color":"1"},
+		{"id":"cdfc2e760dfe78ae","fromNode":"ffa785e3078608e8","fromSide":"right","toNode":"ab5ae3f682cc88d7","toSide":"left","toEnd":"none"},
+		{"id":"bccb295c4336a2bf","fromNode":"ab5ae3f682cc88d7","fromSide":"right","toNode":"3872d5b799d599bc","toSide":"left","toEnd":"none"},
+		{"id":"85c4a969b4c09d56","fromNode":"40327c59640dd43a","fromSide":"bottom","toNode":"3872d5b799d599bc","toSide":"top","color":"5"},
+		{"id":"5efb75cae2418da3","fromNode":"30bfe391b50ba0dd","fromSide":"bottom","toNode":"a1a6bae439c05c56","toSide":"top","color":"#4d5ead"},
+		{"id":"be5d3491e2d943ff","fromNode":"3872d5b799d599bc","fromSide":"right","toNode":"a1a6bae439c05c56","toSide":"left","toEnd":"none"}
+	]
+}
