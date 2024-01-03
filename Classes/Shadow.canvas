@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"51c079a6c089c1ca","type":"text","text":"Wraith ","x":-125,"y":-233,"width":250,"height":60},
+		{"id":"cda4a1a9b80f1963","type":"text","text":"Draw of *Shadow*:\nEvery turn ended out of sight + (lvl) *Shadow*","x":-240,"y":60,"width":430,"height":120},
+		{"id":"001d37707fb912b1","type":"text","text":"Victorious *Shadow*:\nBegin combat with (Victories x Levels) *Shadow*","x":340,"y":60,"width":420,"height":120},
+		{"id":"7f7c392754d6a0f1","type":"text","text":"Base Class","x":425,"y":-480,"width":250,"height":60},
+		{"id":"b32a9f08ad0b01d1","type":"text","text":"Reaper","x":980,"y":-233,"width":250,"height":60},
+		{"id":"2b23f61e52a676cc","type":"text","text":"Sneak Attack: Blades and Bows","x":-125,"y":-173,"width":250,"height":60},
+		{"id":"4700b719c244183c","type":"text","text":"Shadow Warrior","x":980,"y":-173,"width":250,"height":60},
+		{"id":"d9fde2fbdc42dd69","x":940,"y":60,"width":360,"height":120,"type":"text","text":"Sightfeed:\nGain +(lvl) Shadow per enemy within 10 feet whose vision you've effected"}
+	],
+	"edges":[
+		{"id":"cc96bb99ebb784d5","fromNode":"51c079a6c089c1ca","fromSide":"bottom","toNode":"cda4a1a9b80f1963","toSide":"top"},
+		{"id":"6c4abe4f6bd8e9b5","fromNode":"51c079a6c089c1ca","fromSide":"right","toNode":"b32a9f08ad0b01d1","toSide":"left","toEnd":"none"},
+		{"id":"a5c5f86446d858a6","fromNode":"7f7c392754d6a0f1","fromSide":"bottom","toNode":"001d37707fb912b1","toSide":"top"},
+		{"id":"4a0c0798cebdbf22","fromNode":"4700b719c244183c","fromSide":"bottom","toNode":"d9fde2fbdc42dd69","toSide":"top"}
+	]
+}
