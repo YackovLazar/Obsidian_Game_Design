@@ -1,9 +1,10 @@
 {
 	"nodes":[
-		{"id":"8826295fb29f253c","x":-120,"y":-560,"width":250,"height":60,"type":"text","text":"Tier I"},
-		{"id":"0172d66a40e504dc","x":-189,"y":-460,"width":389,"height":420,"type":"text","text":"Backhanded Compliment:\n+ 1 Inspiration, 1 Condescension \n\nDuration:\n+ +(Troubadour lvl) to Condescension \n+ -(1/2 Troubadour lvl (down)) to Inspiration \n+ +(1/4 Troubadour lvl (up)) *Flow*\n\nResolution:\n+ Free use of a Condescension Maneuver with +(Troubadour lvl) to Condescension.\n+ -1 Flow"}
+		{"id":"0172d66a40e504dc","type":"text","text":"Backhanded Compliment:\n+ X *Inspiration*, X *Condescension* \n+ Perfectly Proportioned \n+  + Before Resolving, the *Performer* must complete the same number of *Inspiration* and *Condescension* Actions in the correct order or (1/2) *[Flow Penalty]()* \n\nDuration:\n+ +(1/2 Troubadour lvl (up)) *Flow*\n+ +(Flow) to Condescension \n+ (1/2 Flow) _Flow Penalty_ to Inspiration\n\nResolution:\n+ Free use of a Condescension Maneuver with +(*Flow*) to Condescension.\n+ -1 *Flow*","x":-189,"y":-460,"width":469,"height":500},
+		{"id":"6ed37374ba5678dc","type":"text","text":"Sincere Compliment \n+ 1 Inspiration, X Inspiration\n\nDuration:\n+ +()","x":-740,"y":-460,"width":460,"height":500},
+		{"id":"8826295fb29f253c","type":"text","text":"   Tier I","x":-280,"y":-580,"width":120,"height":60}
 	],
 	"edges":[
-		{"id":"9126f00be5c77183","fromNode":"8826295fb29f253c","fromSide":"bottom","toNode":"0172d66a40e504dc","toSide":"top","toEnd":"none"}
+		{"id":"93db30ae6dc3980c","fromNode":"6ed37374ba5678dc","fromSide":"right","toNode":"0172d66a40e504dc","toSide":"left","fromEnd":"arrow"}
 	]
 }

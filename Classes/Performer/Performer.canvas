@@ -3,11 +3,13 @@
 		{"id":"53beea9815b909d2","type":"text","text":"Heroic Resource: Flow\nPerformers use *Flow* to tie their acts together.  With enough *Flow* even the largest of gaffs can elicit the greatest guffaw.","x":-125,"y":-440,"width":380,"height":160},
 		{"id":"7ca6d0121dbfbaec","type":"text","text":"Heroic Mechanic: Composition \n*Compositions* are the Performer's bread and butter.  When creating an act that will be remembered forever, the *Composition* must be clearly thought through to get the proper result. While different performers see composition differently, it's important all the same. ","x":-500,"y":-440,"width":340,"height":260},
 		{"id":"dcb47c9be3694be9","type":"text","text":"_Class Bonuses_:\nCharisma +2\n_Proficiencies_:\nLight Armor\nPerformance \n","x":280,"y":-440,"width":340,"height":200},
-		{"id":"3aff377f5adbde04","type":"text","text":"Base Class","x":-15,"y":-540,"width":160,"height":50}
+		{"id":"3aff377f5adbde04","type":"text","text":"Base Class","x":-15,"y":-540,"width":160,"height":50},
+		{"id":"b882ad7210982e64","x":-500,"y":-140,"width":340,"height":280,"type":"text","text":"X Flow Penalty:\nDuring a performance, breaking the flow is usually bad.  If you cannot justify an act as a part of a composition, loose X flow and _IMMEDIATELY_ end the composition, ignoring the resolution. If the act would cause you to lose all Flow, you succeed but lose your next turn's actions."}
 	],
 	"edges":[
 		{"id":"4a9475bfc44da23f","fromNode":"3aff377f5adbde04","fromSide":"bottom","toNode":"53beea9815b909d2","toSide":"top","toEnd":"none"},
 		{"id":"95f3ec2927e6e0a1","fromNode":"3aff377f5adbde04","fromSide":"left","toNode":"7ca6d0121dbfbaec","toSide":"top","toEnd":"none"},
-		{"id":"c7e2fb8369feb17b","fromNode":"3aff377f5adbde04","fromSide":"right","toNode":"dcb47c9be3694be9","toSide":"top","toEnd":"none"}
+		{"id":"c7e2fb8369feb17b","fromNode":"3aff377f5adbde04","fromSide":"right","toNode":"dcb47c9be3694be9","toSide":"top","toEnd":"none"},
+		{"id":"6b01c4fddc96c030","fromNode":"7ca6d0121dbfbaec","fromSide":"bottom","toNode":"b882ad7210982e64","toSide":"top"}
 	]
 }
