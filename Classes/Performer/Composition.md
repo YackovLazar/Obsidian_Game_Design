@@ -1,0 +1,2 @@
+Heroic Mechanic: Composition 
+*Compositions* are the Performer's bread and butter.  When creating an act that will be remembered forever, the *Composition* must be clearly thought through to get the proper result. While different performers see composition differently, it's important all the same. 

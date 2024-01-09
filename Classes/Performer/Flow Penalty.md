@@ -1,0 +1,2 @@
+X Flow Penalty:
+During a performance, breaking the flow is usually bad.  If you cannot justify an act as a part of a composition, loose X flow and _IMMEDIATELY_ end the composition, ignoring the resolution. If the act would cause you to lose all Flow, you succeed but lose your next turn's actions.

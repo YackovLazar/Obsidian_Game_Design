@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5503e99c9f46149d",
+        "id": "1500535ab6de5a4f",
         "type": "tabs",
         "children": [
           {
-            "id": "8ffcae561e7d7695",
+            "id": "eac1d2acc6cce721",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Elementalist Spell List.canvas",
+                "file": "Classes/Performer/Performer.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": 60,
+                  "y": -200,
                   "zoom": 0
                 }
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Elementalist Spell List.canvas",
+                "file": "Classes/Performer/Performer.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Elementalist Spell List.canvas",
+                "file": "Classes/Performer/Performer.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/Elementalist Spell List.canvas"
+                "file": "Classes/Performer/Performer.canvas"
               }
             }
           },
@@ -157,10 +157,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ffcae561e7d7695",
+  "active": "a5eea31bc6e9d393",
   "lastOpenFiles": [
-    "Classes/Elementalist.canvas",
+    "Classes/Performer/Performer Class Bonuses.md",
+    "Classes/Performer/Flow.md",
+    "Classes/Performer/Composition.md",
+    "Classes/Performer/Flow Penalty.md",
+    "Classes/Performer/Troubadour/Troubadour.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions.canvas",
+    "().md",
     "Classes/Elementalist Spell List.canvas",
+    "Classes/Shadow.canvas",
+    "Classes/Performer/Troubadour",
+    "Classes/Performer/Performer.canvas",
+    "Classes/Performer",
+    "Classes/Elementalist.canvas",
     "Stats.canvas",
     "Origins/Untitled.canvas",
     "Origins",
