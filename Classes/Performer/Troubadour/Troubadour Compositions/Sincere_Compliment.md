@@ -3,10 +3,10 @@ Sincere Compliment:
 + *[Snowball](Snowball)*
 
 Duration:
-+ +(X) Flow
++ +(X) *Flow*
 + +(Flow) to *Inspiration*
 + (1/2 Flow) *[Flow Penalty](Flow_Penalty)* to *Condescension*
 
 Resolution:
 + Your next *Inspiration Maneuver* effects an extra X targets.
-+ -1 *Flow* 
++ +1 *Flow* 

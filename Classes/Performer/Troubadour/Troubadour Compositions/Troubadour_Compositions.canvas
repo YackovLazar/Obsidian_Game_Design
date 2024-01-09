@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"8826295fb29f253c","type":"text","text":"   Tier I","x":-280,"y":-580,"width":120,"height":60},
-		{"id":"d0df712c68651058","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md","x":-189,"y":-480,"width":489,"height":580},
-		{"id":"2af86553bf15ecdc","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md","x":-740,"y":-480,"width":460,"height":580},
-		{"id":"09467e1ffcff795e","type":"text","text":"Setup, Knockdown:\n+ X(+) *Setup*, 1 *Punchline*\n+ *[Snowball](Snowball)*\n+ *[Ordered](Ordered)*\n\nDuration:\n+ +(X) Flow\n+ +(Flow) to *Setup* ","x":-1320,"y":-480,"width":470,"height":580}
+		{"id":"cb202f0aa186b135","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md","x":-1320,"y":-480,"width":470,"height":500},
+		{"id":"d0df712c68651058","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md","x":-189,"y":-480,"width":489,"height":500},
+		{"id":"2af86553bf15ecdc","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md","x":-740,"y":-480,"width":460,"height":500},
+		{"id":"8826295fb29f253c","type":"text","text":"   Tier I","x":-570,"y":-600,"width":120,"height":60}
 	],
 	"edges":[]
 }
