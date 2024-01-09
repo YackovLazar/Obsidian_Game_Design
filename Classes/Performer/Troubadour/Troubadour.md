@@ -1,0 +1,2 @@
+Troubadour
+The *Troubadour* is comedic *Performer*. They can inspire their teammates and throw their enemies off their game, but they must straddle the line between being to encouraging and too insulting. 
