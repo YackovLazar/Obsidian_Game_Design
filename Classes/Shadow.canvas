@@ -7,7 +7,8 @@
 		{"id":"b32a9f08ad0b01d1","type":"text","text":"Reaper","x":980,"y":-233,"width":250,"height":60},
 		{"id":"2b23f61e52a676cc","type":"text","text":"Sneak Attack: Blades and Bows","x":-125,"y":-173,"width":250,"height":60},
 		{"id":"4700b719c244183c","type":"text","text":"Shadow Warrior","x":980,"y":-173,"width":250,"height":60},
-		{"id":"d9fde2fbdc42dd69","x":940,"y":60,"width":360,"height":120,"type":"text","text":"Sightfeed:\nGain +(lvl) Shadow per enemy within 10 feet whose vision you've effected"}
+		{"id":"d9fde2fbdc42dd69","type":"text","text":"Sightfeed:\nGain +(lvl) Shadow per enemy within 10 feet whose vision you've effected","x":940,"y":60,"width":360,"height":120},
+		{"id":"9c922b4d7aeabb65","x":18,"y":-663,"width":250,"height":60,"type":"text","text":"REQUIRES OVERHAUL"}
 	],
 	"edges":[
 		{"id":"cc96bb99ebb784d5","fromNode":"51c079a6c089c1ca","fromSide":"bottom","toNode":"cda4a1a9b80f1963","toSide":"top"},

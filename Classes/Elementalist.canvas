@@ -10,9 +10,10 @@
 		{"id":"40327c59640dd43a","type":"text","text":"Icy Shard: Single Target\nDmg: 2d4 + Int\nFrost (2): loses 5ft of movement\n","x":-145,"y":-260,"width":300,"height":120,"color":"5"},
 		{"id":"30bfe391b50ba0dd","type":"text","text":"Spark: Single Target\nDmg: 1d6 + Charges + Int\nCharged (2): Charges +1","x":325,"y":-260,"width":280,"height":120,"color":"#5877eb"},
 		{"id":"ab5ae3f682cc88d7","type":"text","text":"2 LvL 1 Elementalist or Pyromancer spells","x":-625,"y":-100,"width":300,"height":90,"color":"1"},
-		{"id":"ffa785e3078608e8","x":-802,"y":-85,"width":125,"height":60,"type":"text","text":"Spell"},
+		{"id":"ffa785e3078608e8","type":"text","text":"Spell","x":-802,"y":-85,"width":125,"height":60},
 		{"id":"3872d5b799d599bc","type":"text","text":"2 LvL 1 Elementalist or Cryomancer spells","x":-145,"y":-100,"width":300,"height":90,"color":"5"},
-		{"id":"a1a6bae439c05c56","type":"text","text":"2 LvL 1 Elementalist or Fulguromancer spells","x":325,"y":-100,"width":280,"height":90,"color":"#5877eb"}
+		{"id":"a1a6bae439c05c56","type":"text","text":"2 LvL 1 Elementalist or Fulguromancer spells","x":325,"y":-100,"width":280,"height":90,"color":"#5877eb"},
+		{"id":"a32734eaa252896e","x":-575,"y":-760,"width":250,"height":60,"type":"text","text":"REQUIRES OVERHAUL"}
 	],
 	"edges":[
 		{"id":"464024295e0fe274","fromNode":"44f59c46a42d7dbe","fromSide":"bottom","toNode":"7b19702e0db07f35","toSide":"top","color":"1"},

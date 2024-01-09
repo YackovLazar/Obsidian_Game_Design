@@ -1,9 +1,10 @@
 Backhanded Compliment:
 + X *Inspiration*, X *Condescension* 
-+ Perfectly Proportioned 
++ *[Perfectly Proportioned](Perfectly_Proportioned)* 
++ *[Ordered](Ordered)*
 
 Duration:
-+ +(1/2 Troubadour lvl (up)) *Flow*
++ +(X) *Flow*
 + +(Flow) to *Condescension* 
 + (1/2 Flow) *[Flow Penalty](Flow_Penalty)* to *Inspiration*
 
