@@ -1,5 +1,5 @@
 Setup, Knockdown:
-+ X(+) *Setup*, 1 *Punchline*
++ X(2+) *Setup*, 1 *Punchline*
 + *[Snowball](Snowball)*
 + *[Ordered](Ordered)* 
 + *[Predetermined Resolution](Predetermined_Resolution)*

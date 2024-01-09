@@ -1,5 +1,5 @@
 Backhanded Compliment:
-+ X *Inspiration*, X *Condescension* 
++ X(1, 2) *Inspiration*, X(1, 2) *Condescension* 
 + *Inspiration*, *Condescension* *[Perfectly Proportioned](Perfectly_Proportioned)* 
 + *[Ordered](Ordered)*
 + *[Predetermined Resolution](Predetermined_Resolution)*
@@ -7,7 +7,6 @@ Backhanded Compliment:
 Duration:
 + +(X) *Flow*
 + +(Flow) to *Condescension* 
-+ (1/2 Flow) *[Flow Penalty](Flow_Penalty)* to *Inspiration*
 
 Resolution:
 + Free use of a *Condescension Maneuver* with +(*Flow* + X) to *Condescension*.

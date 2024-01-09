@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"76e8470bf4f884cf","x":-1320,"y":60,"width":470,"height":420,"type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md"},
 		{"id":"cb202f0aa186b135","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md","x":-1320,"y":-480,"width":470,"height":500},
 		{"id":"d0df712c68651058","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md","x":-189,"y":-480,"width":489,"height":500},
 		{"id":"2af86553bf15ecdc","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md","x":-740,"y":-480,"width":460,"height":500},

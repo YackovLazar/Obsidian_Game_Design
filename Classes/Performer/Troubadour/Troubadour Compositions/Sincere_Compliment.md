@@ -1,5 +1,5 @@
 Sincere Compliment:
-+ X(+) Inspiration
++ X(2+) Inspiration
 + *[Snowball](Snowball)*
 
 Duration:
