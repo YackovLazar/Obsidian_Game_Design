@@ -13,10 +13,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Performer/Troubadour.canvas",
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions.canvas",
                 "viewState": {
-                  "x": 234.82366943359375,
-                  "y": 532.6764526367188,
+                  "x": -108.1761474609375,
+                  "y": -135.29409790039062,
                   "zoom": 0
                 }
               }
@@ -88,7 +88,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Classes/Performer/Troubadour.canvas",
+            "file": "Classes/Performer/Troubadour/Troubadour Compositions.canvas",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Classes/Performer/Troubadour.canvas",
+            "file": "Classes/Performer/Troubadour/Troubadour Compositions.canvas",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +117,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Classes/Performer/Troubadour.canvas"
+            "file": "Classes/Performer/Troubadour/Troubadour Compositions.canvas"
           }
         }
       },
@@ -144,8 +144,11 @@
   },
   "active": "f700262eb1b7f8c2",
   "lastOpenFiles": [
+    "Classes/Performer/Troubadour/Troubadour.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions.md",
+    "Classes/Performer/Troubadour",
     "Classes/Performer/Performer.canvas",
-    "Classes/Performer/Troubadour.canvas",
     "Classes/Performer",
     "Stats.canvas",
     "Classes/Shadow.canvas",

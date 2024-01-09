@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"8826295fb29f253c","x":-120,"y":-560,"width":250,"height":60,"type":"text","text":"Tier I"},
+		{"id":"0172d66a40e504dc","x":-189,"y":-460,"width":389,"height":420,"type":"text","text":"Backhanded Compliment:\n+ 1 Inspiration, 1 Condescension \n\nDuration:\n+ +(Troubadour lvl) to Condescension \n+ -(1/2 Troubadour lvl (down)) to Inspiration \n+ +(1/4 Troubadour lvl (up)) *Flow*\n\nResolution:\n+ Free use of a Condescension Maneuver with +(Troubadour lvl) to Condescension.\n+ -1 Flow"}
+	],
+	"edges":[
+		{"id":"9126f00be5c77183","fromNode":"8826295fb29f253c","fromSide":"bottom","toNode":"0172d66a40e504dc","toSide":"top","toEnd":"none"}
+	]
+}

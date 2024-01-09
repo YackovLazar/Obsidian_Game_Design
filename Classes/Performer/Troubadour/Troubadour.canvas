@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"8b02702ff3c42289","type":"file","file":"Classes/Performer/Performer.canvas","x":0,"y":-203,"width":400,"height":400},
+		{"id":"4a7c7ba59069be50","type":"text","text":"Troubadour\nThe *Troubadour* is comedic *Performer*. They can inspire their teammates and throw their enemies off their game, but they must straddle the line between being to encouraging and too insulting. ","x":19,"y":400,"width":363,"height":205}
+	],
+	"edges":[
+		{"id":"dcb9ab1ec448b71e","fromNode":"8b02702ff3c42289","fromSide":"bottom","toNode":"4a7c7ba59069be50","toSide":"top","toEnd":"none"}
+	]
+}
