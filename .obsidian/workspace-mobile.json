@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Shadow.canvas",
+                "file": "Classes/Performer.canvas",
                 "viewState": {
-                  "x": 552.3252814168961,
-                  "y": 17.45386053402939,
-                  "zoom": -0.896101018025779
+                  "x": -158.32351684570312,
+                  "y": -158.2443084716797,
+                  "zoom": 0
                 }
               }
             }
@@ -88,7 +88,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Classes/Shadow.canvas",
+            "file": "Classes/Performer.canvas",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Classes/Shadow.canvas",
+            "file": "Classes/Performer.canvas",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +117,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Classes/Shadow.canvas"
+            "file": "Classes/Performer.canvas"
           }
         }
       },
@@ -144,8 +144,9 @@
   },
   "active": "f700262eb1b7f8c2",
   "lastOpenFiles": [
-    "Stats.canvas",
     "Classes/Shadow.canvas",
+    "Classes/Performer.canvas",
+    "Stats.canvas",
     "Classes/Untitled.md",
     "Classes/Elementalist Spell List.canvas",
     "/Classes/Elementalist Spell List.canvas",
