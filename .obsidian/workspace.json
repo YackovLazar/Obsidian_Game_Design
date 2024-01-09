@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Shadow.canvas",
+                "file": "Classes/REQUIRES OVERHAUL/Shadow.canvas",
                 "viewState": {
                   "x": 530,
                   "y": -150,
@@ -21,8 +21,24 @@
                 }
               }
             }
+          },
+          {
+            "id": "300d8a50ebaf13df",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Stats.canvas",
+                "viewState": {
+                  "x": -185,
+                  "y": -180,
+                  "zoom": 0
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Shadow.canvas",
+                "file": "Stats.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Shadow.canvas",
+                "file": "Stats.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/Shadow.canvas"
+                "file": "Stats.canvas"
               }
             }
           },
@@ -157,10 +173,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5bbb9ac4d3920c00",
+  "active": "300d8a50ebaf13df",
   "lastOpenFiles": [
-    "Classes/Elementalist_Spell_List.canvas",
-    "Classes/Elementalist.canvas",
+    "Origins/Untitled.canvas",
+    "Classes/REQUIRES OVERHAUL/Elementalist.canvas",
+    "Classes/REQUIRES OVERHAUL/Shadow.canvas",
+    "Classes/REQUIRES OVERHAUL",
+    "Classes/REQUIRES OVERHAUL/Elementalist_Spell_List.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Keywords.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Troubadour_Compositions.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Ordered.md",
@@ -178,11 +197,9 @@
     "Classes/Performer/Performer.canvas",
     "Classes/Performer/Performer_Class_Bonuses.md",
     "().md",
-    "Classes/Shadow.canvas",
     "Classes/Performer/Troubadour",
     "Classes/Performer",
     "Stats.canvas",
-    "Origins/Untitled.canvas",
     "Origins",
     "Classes/Untitled.md",
     "Classes"
