@@ -13,10 +13,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Performer.canvas",
+                "file": "Classes/Performer/Troubadour.canvas",
                 "viewState": {
-                  "x": 237.44122791290283,
-                  "y": -110.71488952636719,
+                  "x": 234.82366943359375,
+                  "y": 532.6764526367188,
                   "zoom": 0
                 }
               }
@@ -88,7 +88,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Classes/Performer.canvas",
+            "file": "Classes/Performer/Troubadour.canvas",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Classes/Performer.canvas",
+            "file": "Classes/Performer/Troubadour.canvas",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +117,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Classes/Performer.canvas"
+            "file": "Classes/Performer/Troubadour.canvas"
           }
         }
       },
@@ -144,9 +144,11 @@
   },
   "active": "f700262eb1b7f8c2",
   "lastOpenFiles": [
-    "Classes/Shadow.canvas",
-    "Classes/Performer.canvas",
+    "Classes/Performer/Performer.canvas",
+    "Classes/Performer/Troubadour.canvas",
+    "Classes/Performer",
     "Stats.canvas",
+    "Classes/Shadow.canvas",
     "Classes/Untitled.md",
     "Classes/Elementalist Spell List.canvas",
     "/Classes/Elementalist Spell List.canvas",
