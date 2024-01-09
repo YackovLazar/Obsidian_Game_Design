@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"8826295fb29f253c","type":"text","text":"   Tier I","x":-280,"y":-580,"width":120,"height":60},
+		{"id":"d0df712c68651058","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md","x":-189,"y":-480,"width":489,"height":580},
+		{"id":"2af86553bf15ecdc","type":"file","file":"Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md","x":-740,"y":-480,"width":460,"height":580},
+		{"id":"09467e1ffcff795e","x":-1360,"y":-480,"width":470,"height":580,"type":"text","text":"Setup, Knockdown:\n+ X(+) *Setup*, 1 *Punchline*\n+ Snowball\n\t+ Any number of *Inspiration*s that is greater than 0 can be fit within this Composition"}
+	],
+	"edges":[
+		{"id":"00ae0a74e485fa05","fromNode":"2af86553bf15ecdc","fromSide":"right","toNode":"d0df712c68651058","toSide":"left","fromEnd":"arrow"}
+	]
+}

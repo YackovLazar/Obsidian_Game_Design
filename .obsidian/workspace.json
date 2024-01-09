@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1500535ab6de5a4f",
+        "id": "38c0c9dd1ef0573c",
         "type": "tabs",
         "children": [
           {
-            "id": "eac1d2acc6cce721",
+            "id": "5bbb9ac4d3920c00",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Performer/Performer.canvas",
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Keywords.canvas",
                 "viewState": {
-                  "x": 60,
-                  "y": -200,
+                  "x": -90,
+                  "y": -350,
                   "zoom": 0
                 }
               }
@@ -72,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 327.5
   },
   "right": {
     "id": "a0c9eec188a7e183",
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Performer/Performer.canvas",
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Perfectly Proportioned.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Performer/Performer.canvas",
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Perfectly Proportioned.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/Performer/Performer.canvas"
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Perfectly Proportioned.md"
               }
             }
           },
@@ -159,17 +159,25 @@
   },
   "active": "a5eea31bc6e9d393",
   "lastOpenFiles": [
-    "Classes/Performer/Performer Class Bonuses.md",
-    "Classes/Performer/Flow.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Perfectly Proportioned.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Troubadour_Compositions.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Keywords.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords",
     "Classes/Performer/Composition.md",
-    "Classes/Performer/Flow Penalty.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions",
+    "Classes/Performer/Flow_Penalty.md",
     "Classes/Performer/Troubadour/Troubadour.canvas",
-    "Classes/Performer/Troubadour/Troubadour Compositions.canvas",
+    "Flow_Penalty.md",
+    "Classes/Performer/Flow.md",
+    "Classes/Performer/Performer.canvas",
+    "Classes/Performer/Performer_Class_Bonuses.md",
     "().md",
-    "Classes/Elementalist Spell List.canvas",
+    "Classes/Elementalist_Spell_List.canvas",
     "Classes/Shadow.canvas",
     "Classes/Performer/Troubadour",
-    "Classes/Performer/Performer.canvas",
     "Classes/Performer",
     "Classes/Elementalist.canvas",
     "Stats.canvas",
