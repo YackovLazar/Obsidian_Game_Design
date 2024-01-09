@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Troubadour_Compositions.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Troubadour_Compositions.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md"
+                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Troubadour_Compositions.canvas"
               }
             }
           },
@@ -157,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5bbb9ac4d3920c00",
+  "active": "b113f2adf1a88806",
   "lastOpenFiles": [
     "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md",
