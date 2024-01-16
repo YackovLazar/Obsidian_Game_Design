@@ -8,30 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5bbb9ac4d3920c00",
+            "id": "30b5cf232c0b63d7",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -10,
+                  "y": 128.75,
                   "zoom": 0
                 }
               }
             }
           },
           {
-            "id": "30b5cf232c0b63d7",
+            "id": "a2a0c6d28a66b7eb",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Performer/Troubadour/Troubadour.canvas",
+                "file": "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
                 "viewState": {
-                  "x": 200,
-                  "y": 782.25,
+                  "x": 74.95086669921875,
+                  "y": -223.20001220703125,
                   "zoom": 0
                 }
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Setup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +148,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -171,11 +171,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,32 +220,32 @@
         "direction": "vertical",
         "x": -960,
         "y": -1080,
-        "width": 960,
-        "height": 1040,
+        "width": 1024,
+        "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "a5eea31bc6e9d393",
+  "active": "30b5cf232c0b63d7",
   "lastOpenFiles": [
+    "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Compositions.canvas",
     "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Keywords.canvas",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Predetermined_Resolution.md",
+    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Ordered.md",
+    "Classes/Performer/Performer.canvas",
     "Classes/Performer/Troubadour/Troubadour.canvas",
+    "Stats.canvas",
     "Classes/Performer/Troubadour/Troubadour Maneuvers",
     "Classes/Performer/Troubadour/Subclass_Bonuses.md",
     "Classes/Performer/Troubadour/Troubadour.md",
-    "Classes/Performer/Performer.canvas",
-    "Stats.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Perfectly_Proportioned.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Ordered.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Predetermined_Resolution.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Keywords.canvas",
     "Classes/REQUIRES OVERHAUL/Shadow.canvas",
     "Origins/Untitled.canvas",
     "Classes/REQUIRES OVERHAUL/Elementalist.canvas",

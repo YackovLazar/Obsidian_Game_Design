@@ -1,5 +1,5 @@
 Public Shaming:
-+ X(+) Condescension
++ X(+) #Condescension 
 + *[Snowball](Snowball)*
 
 Duration:

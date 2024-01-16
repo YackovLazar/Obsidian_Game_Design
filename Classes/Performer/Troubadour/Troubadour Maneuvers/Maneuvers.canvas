@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"65359c64a3269f2f","type":"text","text":"Level 1","x":-140,"y":-440,"width":120,"height":60},
+		{"id":"d67268b2d1790132","type":"text","text":"Seamless Transition:\n\tAs you masterfully resolve you \nRequirements:\n+ You just successfully completed a *Composition*\n+ 5(+) Flow\n\nMechanic:\n+ Be able to add (Flow > 5) Maneuvers from the concluded *Composition* to your next *Composition*\n#Setup","x":-440,"y":-340,"width":440,"height":360},
+		{"id":"e5ba7f0b9ce806c7","type":"text","text":"Thunderous Applause:\n","x":60,"y":-340,"width":360,"height":340}
+	],
+	"edges":[]
+}

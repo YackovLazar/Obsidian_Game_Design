@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"36fbd4ccc8b46b26","type":"file","file":"Classes/Performer/Composition.md","x":-500,"y":-440,"width":340,"height":320},
-		{"id":"3aff377f5adbde04","type":"text","text":"Base Class","x":-15,"y":-540,"width":160,"height":50},
+		{"id":"3aff377f5adbde04","type":"text","text":"Base Class #Class","x":-15,"y":-540,"width":160,"height":60},
 		{"id":"5ab904e654624875","type":"file","file":"Classes/Performer/Flow_Penalty.md","x":-500,"y":-80,"width":340,"height":320},
 		{"id":"0a21bb12767c69c3","type":"file","file":"Classes/Performer/Flow.md","x":-125,"y":-440,"width":380,"height":200},
 		{"id":"62ac67b7b652d7d4","type":"file","file":"Classes/Performer/Performer_Class_Bonuses.md","x":280,"y":-440,"width":400,"height":280}

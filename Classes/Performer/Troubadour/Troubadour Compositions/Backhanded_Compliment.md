@@ -1,5 +1,5 @@
 Backhanded Compliment:
-+ X(1, 2) *Inspiration*, X(1, 2) *Condescension* 
++ X(1, 2) #Inspiration , X(1, 2) #Condescension
 + *Inspiration*, *Condescension* *[Perfectly Proportioned](Perfectly_Proportioned)* 
 + *[Ordered](Ordered)*
 + *[Predetermined Resolution](Predetermined_Resolution)*
