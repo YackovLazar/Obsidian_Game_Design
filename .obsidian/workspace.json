@@ -8,15 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30b5cf232c0b63d7",
+            "id": "a3f687f9ef31b0cf",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
                 "viewState": {
-                  "x": 226.80035400390625,
-                  "y": -160,
+                  "x": 150,
+                  "y": -130,
                   "zoom": 0
                 }
               }
@@ -274,14 +274,14 @@
       }
     ]
   },
-  "active": "a5eea31bc6e9d393",
+  "active": "a3f687f9ef31b0cf",
   "lastOpenFiles": [
+    "Classes/Fighter (Brute)/Precision.md",
+    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
     "Fighter_Class_Bonuses.md",
-    "Precision.md",
     "Classes/Fighter (Brute)/Untitled",
     "Classes/Fighter (Brute)/Posture.md",
     "Classes/Performer/Performer.canvas",
-    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
     "Stats.canvas",
     "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
     "Classes/Fighter (Brute)",
