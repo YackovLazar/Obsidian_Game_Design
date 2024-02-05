@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"b34d5f0489c22d0e","type":"file","file":"Classes/Fighter (Brute)/Posture.md","x":-400,"y":-200,"width":290,"height":300},
+		{"id":"657d8b0920948ebe","type":"text","text":"Base Class\n#Class","x":-160,"y":-360,"width":140,"height":60},
+		{"id":"6041bd92d5c8a8cf","x":-60,"y":-200,"width":300,"height":300,"type":"file","file":"Precision.md"},
+		{"id":"b06661a46aacdaff","x":280,"y":-200,"width":420,"height":280,"type":"file","file":"Fighter_Class_Bonuses.md"}
+	],
+	"edges":[
+		{"id":"7ed9befe0b3d3644","fromNode":"657d8b0920948ebe","fromSide":"bottom","toNode":"b34d5f0489c22d0e","toSide":"top"},
+		{"id":"ef4783c2d652d96d","fromNode":"657d8b0920948ebe","fromSide":"bottom","toNode":"6041bd92d5c8a8cf","toSide":"top"},
+		{"id":"d80d0790af760a48","fromNode":"657d8b0920948ebe","fromSide":"bottom","toNode":"b06661a46aacdaff","toSide":"top"}
+	]
+}
