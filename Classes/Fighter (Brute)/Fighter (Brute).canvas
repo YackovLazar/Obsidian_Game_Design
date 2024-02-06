@@ -3,7 +3,7 @@
 		{"id":"b34d5f0489c22d0e","type":"file","file":"Classes/Fighter (Brute)/Posture.md","x":-400,"y":-200,"width":290,"height":340},
 		{"id":"657d8b0920948ebe","type":"text","text":"Base Class\n#Class","x":-160,"y":-360,"width":140,"height":60},
 		{"id":"6041bd92d5c8a8cf","type":"file","file":"Classes/Fighter (Brute)/Precision.md","x":-60,"y":-200,"width":300,"height":340},
-		{"id":"b06661a46aacdaff","type":"file","file":"Fighter_Class_Bonuses.md","x":280,"y":-200,"width":420,"height":280}
+		{"id":"b06661a46aacdaff","type":"file","file":"Classes/Fighter (Brute)/Fighter_Class_Bonuses.md","x":280,"y":-200,"width":420,"height":280}
 	],
 	"edges":[
 		{"id":"7ed9befe0b3d3644","fromNode":"657d8b0920948ebe","fromSide":"bottom","toNode":"b34d5f0489c22d0e","toSide":"top"},

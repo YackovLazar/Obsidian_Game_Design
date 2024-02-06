@@ -13,10 +13,10 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Barbarian/Barbarian.canvas",
+                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": 150,
+                  "y": -110,
                   "zoom": 0
                 }
               }
@@ -26,14 +26,11 @@
             "id": "a2a0c6d28a66b7eb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
-                "viewState": {
-                  "x": 74.95086669921875,
-                  "y": -223.20001220703125,
-                  "zoom": 0
-                }
+                "file": "Classes/Fighter (Brute)/Precision.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -103,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Barbarian/Barbarian.canvas",
+                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Barbarian/Barbarian.canvas",
+                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/Barbarian/Barbarian.canvas"
+                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas"
               }
             }
           },
@@ -276,16 +273,16 @@
   },
   "active": "a3f687f9ef31b0cf",
   "lastOpenFiles": [
-    "Classes/Performer/Performer.canvas",
-    "Classes/Barbarian/Barbarian.canvas",
-    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
-    "Classes/Barbarian",
     "Classes/Fighter (Brute)/Precision.md",
-    "Fighter_Class_Bonuses.md",
+    "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
+    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
+    "Classes/Barbarian/Barbarian.canvas",
+    "Classes/Performer/Performer.canvas",
+    "Classes/Barbarian",
+    "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
     "Classes/Fighter (Brute)/Untitled",
     "Classes/Fighter (Brute)/Posture.md",
     "Stats.canvas",
-    "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
     "Classes/Fighter (Brute)",
     "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Compositions.canvas",
@@ -303,7 +300,6 @@
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Perfectly_Proportioned.md",
     "Classes/REQUIRES OVERHAUL/Shadow.canvas",
     "Origins/Untitled.canvas",
-    "Classes/REQUIRES OVERHAUL/Elementalist.canvas",
     "Classes/REQUIRES OVERHAUL",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords",
     "Classes/Performer/Composition.md",
