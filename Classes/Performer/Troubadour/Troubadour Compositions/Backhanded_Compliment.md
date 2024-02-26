@@ -1,8 +1,8 @@
 Backhanded Compliment:
 + X(1, 2) #Inspiration , X(1, 2) #Condescension
-+ *Inspiration*, *Condescension* *[Perfectly Proportioned](Perfectly_Proportioned)* 
-+ *[Ordered](Ordered)*
-+ *[Predetermined Resolution](Predetermined_Resolution)*
++ *Inspiration*, *Condescension* *[Perfectly Proportioned](Perfectly_Proportioned.md)* 
++ *[Ordered](Ordered.md)*
++ *[Predetermined Resolution](Predetermined_Resolution.md)*
 
 Duration:
 + +(X) *Flow*

@@ -1,0 +1,2 @@
+- Laying traps. 
+- Staying in the shadows.

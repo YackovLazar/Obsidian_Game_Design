@@ -11,14 +11,10 @@
             "id": "a3f687f9ef31b0cf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "diff-view",
               "state": {
-                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
-                "viewState": {
-                  "x": 150,
-                  "y": -110,
-                  "zoom": 0
-                }
+                "file": ".obsidian/app.json",
+                "staged": false
               }
             }
           },
@@ -100,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Classes/Fighter (Brute)/Fighter (Brute).canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -273,16 +265,20 @@
   },
   "active": "a3f687f9ef31b0cf",
   "lastOpenFiles": [
+    "Classes/Alchemist/Alchemist.canvas",
+    "Stats.canvas",
+    "Classes/Barbarian/Barbarian.canvas",
+    "Classes/Alchemist",
+    "Classes/Sneak/Ideas.md",
+    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
+    "Classes/Sneak",
     "Classes/Fighter (Brute)/Precision.md",
     "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
-    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
-    "Classes/Barbarian/Barbarian.canvas",
     "Classes/Performer/Performer.canvas",
     "Classes/Barbarian",
     "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
     "Classes/Fighter (Brute)/Untitled",
     "Classes/Fighter (Brute)/Posture.md",
-    "Stats.canvas",
     "Classes/Fighter (Brute)",
     "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Compositions.canvas",
@@ -310,8 +306,6 @@
     "Classes/Performer/Performer_Class_Bonuses.md",
     "().md",
     "Classes/Performer/Troubadour",
-    "Classes/Performer",
-    "Origins",
     "Classes/Untitled.md"
   ]
 }

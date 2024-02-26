@@ -1,8 +1,8 @@
 Setup, Knockdown:
 + X(2+) #Setup, 1 #Punchline
-+ *[Snowball](Snowball)*
-+ *[Ordered](Ordered)* 
-+ *[Predetermined Resolution](Predetermined_Resolution)*
++ *[Snowball](Snowball.md)*
++ *[Ordered](Ordered.md)* 
++ *[Predetermined Resolution](Predetermined_Resolution.md)*
 
 Duration:
 + +(X) *Flow*

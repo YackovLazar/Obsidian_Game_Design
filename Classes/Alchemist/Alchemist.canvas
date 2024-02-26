@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"691625b11e16a9aa","x":-100,"y":-180,"width":147,"height":60,"type":"text","text":"Base Class\n#Class"},
+		{"id":"f8dfd8a78195815f","x":160,"y":-100,"width":300,"height":240,"type":"text","text":"*Class Bonuses:*\n- Knowledge + 2\n\n*Proficiencies*:\n+ Alchemy\n+ Nature"},
+		{"id":"a33c018dc32b8cbc","x":185,"y":-300,"width":250,"height":150,"type":"text","text":"Core Stats:\n+ Knowledge\n+ Intuition"}
+	],
+	"edges":[]
+}

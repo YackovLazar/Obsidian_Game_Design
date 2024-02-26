@@ -3,7 +3,6 @@
 		{"id":"9c5d0e9931ab3cff","type":"text","text":"Strength\n\n\n\n","x":-760,"y":-520,"width":250,"height":60,"color":"1"},
 		{"id":"229878e5b0ddcc91","type":"text","text":"Str: Athletics\nDex: Acrobatics","x":-360,"y":-497,"width":250,"height":75},
 		{"id":"594f498d4419fd06","type":"text","text":"Intellectual Domains","x":-360,"y":-242,"width":250,"height":60,"color":"5"},
-		{"id":"cc0a6f0de192590c","type":"text","text":"Engineering","x":140,"y":-280,"width":250,"height":60,"color":"5"},
 		{"id":"26ca2a22dd7fb9b3","type":"text","text":"Arcana","x":140,"y":-212,"width":250,"height":60,"color":"5"},
 		{"id":"06530a281b4c349f","type":"text","text":"Per: Investigation","x":-360,"y":-182,"width":250,"height":60},
 		{"id":"534adba651819999","type":"text","text":"Per: Insight\nCha: Performance\nCha: Persuasion","x":-360,"y":-122,"width":250,"height":92},
@@ -18,7 +17,9 @@
 		{"id":"316c6e305c726c14","type":"text","text":"Intuition","x":-760,"y":-370,"width":250,"height":60,"color":"6"},
 		{"id":"a80f768d4dabe5f3","type":"text","text":"Rolling:\n5d4 drop 1\n","x":-340,"y":90,"width":250,"height":70},
 		{"id":"22735e296f5dae07","type":"text","text":"Constitution","x":-760,"y":65,"width":250,"height":60,"color":"3"},
-		{"id":"b762c2fa91f93ecf","type":"text","text":"Cha: Deception","x":-360,"y":-30,"width":250,"height":60}
+		{"id":"b762c2fa91f93ecf","type":"text","text":"Cha: Deception","x":-360,"y":-30,"width":250,"height":60},
+		{"id":"6e67208905756913","type":"text","text":"Alchemy","x":140,"y":-340,"width":250,"height":60,"color":"5"},
+		{"id":"cc0a6f0de192590c","type":"text","text":"Engineering","x":140,"y":-272,"width":250,"height":60,"color":"5"}
 	],
 	"edges":[
 		{"id":"c911040c9da576f1","fromNode":"4a372e9b1aa9c8df","fromSide":"right","toNode":"229878e5b0ddcc91","toSide":"left","color":"4"},
@@ -35,6 +36,7 @@
 		{"id":"6916e0a5d1b5d879","fromNode":"2b9febf8417c7d1e","fromSide":"right","toNode":"06530a281b4c349f","toSide":"left","color":"5"},
 		{"id":"a3576ea7bda1529f","fromNode":"2b9febf8417c7d1e","fromSide":"right","toNode":"594f498d4419fd06","toSide":"left","color":"5"},
 		{"id":"b102c7e8339848b5","fromNode":"594f498d4419fd06","fromSide":"right","toNode":"cc0a6f0de192590c","toSide":"left","color":"5"},
-		{"id":"d7c2aa1f35fc3cb7","fromNode":"594f498d4419fd06","fromSide":"right","toNode":"26ca2a22dd7fb9b3","toSide":"left","color":"5"}
+		{"id":"d7c2aa1f35fc3cb7","fromNode":"594f498d4419fd06","fromSide":"right","toNode":"26ca2a22dd7fb9b3","toSide":"left","color":"5"},
+		{"id":"d474c77324e325a8","fromNode":"594f498d4419fd06","fromSide":"right","toNode":"6e67208905756913","toSide":"left","color":"5"}
 	]
 }
