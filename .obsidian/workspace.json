@@ -13,9 +13,11 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/app.json",
+                "file": ".obsidian/core-plugins.json",
                 "staged": false
-              }
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (core-plugins.json)"
             }
           },
           {
@@ -27,7 +29,9 @@
                 "file": "Classes/Fighter (Brute)/Precision.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Precision"
             }
           }
         ]
@@ -49,8 +53,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -65,7 +72,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -73,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -103,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -114,7 +127,9 @@
               "state": {
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -124,8 +139,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
-              }
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -133,7 +152,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -141,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -185,7 +212,9 @@
                       "y": -226.7002444025328,
                       "zoom": -0.3333333333333334
                     }
-                  }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Stats"
                 }
               }
             ]
@@ -194,8 +223,8 @@
         "direction": "vertical",
         "x": -960,
         "y": -1080,
-        "width": 1024,
-        "height": 800,
+        "width": 1026,
+        "height": 802,
         "maximize": false,
         "zoom": 0
       },
@@ -223,7 +252,9 @@
                           "y": -99.4566881855667,
                           "zoom": -0.3333333333333333
                         }
-                      }
+                      },
+                      "icon": "lucide-layout-dashboard",
+                      "title": "Performer"
                     }
                   }
                 ]
@@ -244,7 +275,9 @@
                           "y": -180,
                           "zoom": -0.3333333333333333
                         }
-                      }
+                      },
+                      "icon": "lucide-layout-dashboard",
+                      "title": "Stats"
                     }
                   }
                 ]
@@ -263,7 +296,7 @@
       }
     ]
   },
-  "active": "a3f687f9ef31b0cf",
+  "active": "a5eea31bc6e9d393",
   "lastOpenFiles": [
     "Classes/Alchemist/Alchemist.canvas",
     "Stats.canvas",
