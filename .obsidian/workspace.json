@@ -255,8 +255,9 @@
       }
     ]
   },
-  "active": "a5eea31bc6e9d393",
+  "active": "bfa87e401368e8d3",
   "lastOpenFiles": [
+    "Card Creators/lu191402ajt8.tmp",
     "Card Creators/SkillCards.csv.meta",
     "/Card Creators/SkillCards.csv.meta",
     "/Card Creators/SkillCards.csv",
@@ -273,7 +274,6 @@
     "Card Creators/SkillCard.odg",
     "Classes/Alchemist/Alchemist.canvas",
     "Classes/Barbarian/Barbarian.canvas",
-    "Classes/Alchemist",
     "Classes/Sneak/Ideas.md",
     "Classes/Fighter (Brute)/Fighter (Brute).canvas",
     "Classes/Fighter (Brute)/Precision.md",
