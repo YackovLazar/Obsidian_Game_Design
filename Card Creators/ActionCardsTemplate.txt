@@ -1,0 +1,32 @@
+LINK="C:\Users\jacki\Documents\Obsidian Vault\ObsidianGameDesign\Card Creators\PassiveCardData.ods"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER = RECTANGLE, #000000, 0.1
+
+
+VISUAL=, 10, 10
+;[CostDiamond]CostDiamond
+RHOMBUS=,{761/600}%,{761/900}%,{1361/50}%,{73/4}%,#000000,EMPTY,.01
+;[CostDiamond]DividingLine(locked)
+RECTANGLE=,{22/3}%,{587/60}%,{8801/600}%,{253/900}%,#000000
+;[CostDiamond]Cost Diamond Text
+FONT=Bahnschrift,10,,#000000
+;[CostDiamond]ActionCost Stat Diamond Text(locked)
+TEXT="1-{(ACTIONCOST)}",[ACTIONCOST],{208/25}%,{111/20}%,{7531/600}%,{149/36}%
+;[CostDiamond]ResourceCost Stat Diamond Text(locked)
+TEXT="1-{(RESOURCECOST)}",[RESOURCECOST],{208/25}%,{9313/900}%,{7531/600}%,{149/36}%
+;NameUnderline(locked)
+RECTANGLE=,{8801/300}%,{2963/300}%,{7007/120}%,{253/900}%,#000000
+;NameText(locked)
+TEXT="1-{(NAME)}",[NAME],{18787/600}%,{2201/450}%,{33173/600}%,{1411/300}%
+;DescriptionText(locked)
+TEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{9139/600}%,{17779/900}%,{5416/75}%,{16171/300}%,LEFT,WORDWRAP
+;RangeText(locked)
+TEXT="1-{(RANGE)}",[RANGE],{18787/600}%,{769/75}%,{2299/100}%,{1411/300}%
+;ActionIcon
+ICON=,A,C:\Users\jacki\Documents\Obsidian Vault\ObsidianGameDesign\Card Creators\chevron_right.svg,1,1
+;ActionNumberIcons
+ICONS=,"A",{2849/50}%,{9313/900}%,{721/24}%,{1693/300}%,100%,100%,0,,LEFT,CENTER,100,1
+ENDVISUAL

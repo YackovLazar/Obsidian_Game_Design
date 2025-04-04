@@ -1,4 +1,3 @@
-Name,ActionCost,ResourceCost,Range,Description,
-Evade,1,2,Self,Deftly evade an incoming attack. Reduce incoming damage by 1d4 + Insight.
-There! An Opening!,0,50%,Self,On attacking while strategy > target’s Deception – 10, Expose Target. (Expose: attacks from the applying party use triple dice and apply a stacking slow)
-He’s the Real McCoy!,1,2,30,Deploy a holographic decoy. It is indistinguishable from him from farther than 10 feet. On attacking the decoy or getting within 10 feet, an opponent can roll insight vs. your deception to recognize it as fake.
+Name,ActionCost,ResourceCost,Range,Description
+Evade,1,2,Self,Nimbly slip out of the way of the attack. Reduce an instance of incoming damage by 1d4 + Insight
+He’s Alphrius!,1,2,30ft,"Deploy a holographic decoy into a space near you. It is identical to you until attacked or within 5 feet. Under those conditions, a insight check can be made against your deception to detect the decoy."
