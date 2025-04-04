@@ -1,0 +1,22 @@
+{
+  "Title": {
+    "type": "string",
+    "default": ""
+  },
+  "PrimaryCost": {
+    "type": "number",
+    "default": "1"
+  },
+  "ActionCost": {
+    "type": "number",
+    "default": "1"
+  },
+  "Description": {
+    "type": "string",
+    "default": ""
+  },
+  "IsReaction": {
+    "type": "number",
+    "default": "1"
+  }
+}

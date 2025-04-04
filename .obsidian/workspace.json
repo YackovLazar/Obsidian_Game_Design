@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Card Creators/SkillCard.odg",
-                "bFile": "Card Creators/SkillCard.odg",
+                "aFile": "Card Creators/PassiveCardData.csv",
+                "bFile": "Card Creators/PassiveCardData.csv",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: SkillCard.odg"
+              "title": "Diff: PassiveCardData.csv"
             }
           }
         ]
@@ -255,8 +255,13 @@
       }
     ]
   },
-  "active": "bfa87e401368e8d3",
+  "active": "a5eea31bc6e9d393",
   "lastOpenFiles": [
+    "Card Creators/SkillCards.csv.meta",
+    "/Card Creators/SkillCards.csv.meta",
+    "/Card Creators/SkillCards.csv",
+    "Card Creators/SkillCards.csv",
+    "/Card Creators",
     "Card Creators/SkillCard.pdf",
     "Card Creators/SkillCardWithTargets.pdf",
     "Card Creators/PassiveCardData.md",
@@ -271,14 +276,10 @@
     "Classes/Alchemist",
     "Classes/Sneak/Ideas.md",
     "Classes/Fighter (Brute)/Fighter (Brute).canvas",
-    "Classes/Sneak",
     "Classes/Fighter (Brute)/Precision.md",
     "Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
-    "Classes/Barbarian",
     "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
-    "Classes/Fighter (Brute)/Untitled",
     "Classes/Fighter (Brute)/Posture.md",
-    "Classes/Fighter (Brute)",
     "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Compositions.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md",

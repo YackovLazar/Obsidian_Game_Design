@@ -7,5 +7,24 @@
       ],
       "key": "M"
     }
+  ],
+  "csv-allinone:create-CSV-table": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "csv-allinone:open-CSV-explorer": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
   ]
 }
