@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"43ba917ea067c87f","type":"text","text":"Weapon System","x":-200,"y":-480,"width":250,"height":60},
+		{"id":"1a38e221017f14aa","type":"text","text":"Weapons Have\nBonuses (Possible)\nBasic Strike\n[[Alternative-Additional Strikes]] (Possible)","x":-400,"y":-340,"width":325,"height":160},
+		{"id":"6d8a36b16da9ebe7","type":"file","file":"Weapons/Alternative-Additional Strikes.md","x":-20,"y":-350,"width":440,"height":180}
+	],
+	"edges":[
+		{"id":"2086ec824e7459cd","fromNode":"43ba917ea067c87f","fromSide":"bottom","toNode":"1a38e221017f14aa","toSide":"top"},
+		{"id":"ba44741b4c2ae89f","fromNode":"1a38e221017f14aa","fromSide":"right","toNode":"6d8a36b16da9ebe7","toSide":"left","toEnd":"none"}
+	]
+}

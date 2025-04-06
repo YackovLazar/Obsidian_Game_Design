@@ -1,0 +1,1 @@
+- While some classes specialize in having a divine/infernal source, any class can draw their power from an ascendant source. This allows them to choose themed and adjusted versions of their spells as long as their patron is supportive.
