@@ -1,4 +1,4 @@
-LINK="C:\Users\jacki\Documents\Obsidian Vault\ObsidianGameDesign\Card Creators\PassiveCardData.ods"
+LINK="PassiveCardData.ods"
 
 ; Settings
 UNIT = INCH
@@ -7,26 +7,32 @@ BORDER = RECTANGLE, #000000, 0.1
 
 
 VISUAL=, 10, 10
+;DescriptiveImage
+IMAGE=,"[NAME].png",{-169/300}%,{8551/-450}%,{60253/600}%,{100/1}%
 ;[CostDiamond]CostDiamond
-RHOMBUS=,{761/600}%,{761/900}%,{1361/50}%,{73/4}%,#000000,EMPTY,.01
-;[CostDiamond]DividingLine(locked)
-RECTANGLE=,{22/3}%,{587/60}%,{8801/600}%,{253/900}%,#000000
+RHOMBUS=,{677/300}%,{761/900}%,{1361/50}%,{817/45}%,#000000,EMPTY,.01
 ;[CostDiamond]Cost Diamond Text
-FONT=Bahnschrift,10,,#000000
-;[CostDiamond]ActionCost Stat Diamond Text(locked)
-TEXT="1-{(ACTIONCOST)}",[ACTIONCOST],{208/25}%,{111/20}%,{7531/600}%,{149/36}%
-;[CostDiamond]ResourceCost Stat Diamond Text(locked)
-TEXT="1-{(RESOURCECOST)}",[RESOURCECOST],{208/25}%,{9313/900}%,{7531/600}%,{149/36}%
+FONT=Bahnschrift,10,T,#000000
+;ResourceCost Stat Diamond Text
+TEXT="1-{(RESOURCECOST)}",[RESOURCECOST],{5669/600}%,{7111/900}%,{7531/600}%,{149/36}%
 ;NameUnderline(locked)
 RECTANGLE=,{8801/300}%,{2963/300}%,{7007/120}%,{253/900}%,#000000
 ;NameText(locked)
 TEXT="1-{(NAME)}",[NAME],{18787/600}%,{2201/450}%,{33173/600}%,{1411/300}%
-;DescriptionText(locked)
-TEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{9139/600}%,{17779/900}%,{5416/75}%,{16171/300}%,LEFT,WORDWRAP
-;RangeText(locked)
-TEXT="1-{(RANGE)}",[RANGE],{18787/600}%,{769/75}%,{2299/100}%,{1411/300}%
-;ActionIcon
-ICON=,A,C:\Users\jacki\Documents\Obsidian Vault\ObsidianGameDesign\Card Creators\chevron_right.svg,1,1
-;ActionNumberIcons
-ICONS=,"A",{2849/50}%,{9313/900}%,{721/24}%,{1693/300}%,100%,100%,0,,LEFT,CENTER,100,1
+;RangeText
+TEXT="1-{(RANGE)}",[RANGE],{141/40}%,{17441/900}%,{952/75}%,{1411/300}%
+;DescriptionFont
+FONT=Bahnschrift,8,,#000000
+;DescriptionText
+TEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{2877/200}%,{25061/300}%,{5416/75}%,{1157/100}%,LEFT,WORDWRAP
+IMAGE=,"action.png",{1117/120}%,{22097/900}%,{4231/600}%,{4487/900}%,0,PN
+IMAGE=,"action.png",{4823/600}%,{22097/900}%,{4231/600}%,{4487/900}%,0,PN
+IMAGE=,"FinalTextBox.png",{169/600}%,{67309/900}%,{5983/60}%,{2269/90}%
 ENDVISUAL
+
+;ActionCostImage
+IF = [TYPE] = "A"
+IMAGE="1-{(TYPE)}","action.png",{24203/300}%,{769/75}%,{4231/600}%,{4487/900}%,0,PN
+ELSEIF = [TYPE] = "R"
+IMAGE="1-{(TYPE)}","reaction.png",{24203/300}%,{769/75}%,{4231/600}%,{4487/900}%,0,PN
+ENDIF
