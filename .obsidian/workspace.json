@@ -11,14 +11,12 @@
             "id": "bfa87e401368e8d3",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "image",
               "state": {
-                "aFile": "Card Creators/PassiveCardData.csv",
-                "bFile": "Card Creators/PassiveCardData.csv",
-                "aRef": ""
+                "file": "Card Creators/EVADE.png"
               },
-              "icon": "diff",
-              "title": "Diff: PassiveCardData.csv"
+              "icon": "lucide-image",
+              "title": "EVADE"
             }
           }
         ]
@@ -249,13 +247,24 @@
         "y": 282,
         "width": 1356,
         "height": 1030,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "a5eea31bc6e9d393",
+  "active": "bfa87e401368e8d3",
   "lastOpenFiles": [
+    "Card Creators/reaction.png",
+    "Card Creators/action.png",
+    "Card Creators/FinalTextBox.png",
+    "Card Creators/EVADE.png",
+    "Stats.canvas",
+    "canvas-export.html",
+    "Weapons/Weapons System.canvas",
+    "Weapons/Alternative-Additional Strikes.md",
+    "Weapons",
+    "Religion/Source.md",
+    "Religion/Patrons and Piety.canvas",
     "Religion",
     "Card Creators/ActionCardsTemplate.txt",
     "Card Creators/chevron_right.svg",
@@ -265,11 +274,7 @@
     "/Card Creators/SkillCards.csv.meta",
     "/Card Creators/SkillCards.csv",
     "Card Creators/SkillCards.csv",
-    "/Card Creators",
-    "Card Creators/SkillCard.pdf",
-    "Card Creators/SkillCardWithTargets.pdf",
     "Card Creators/PassiveCardData.md",
-    "Stats.canvas",
     "Classes/Performer/Performer.canvas",
     "Origins/Untitled.canvas",
     "Classes/Alchemist/Alchemist.canvas",
@@ -283,11 +288,9 @@
     "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Compositions.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md",
-    "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Keywords.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Predetermined_Resolution.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Ordered.md",
-    "Classes/Performer/Troubadour/Troubadour.canvas",
     "Classes/Performer/Troubadour/Subclass_Bonuses.md",
     "Classes/Performer/Troubadour/Troubadour.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
