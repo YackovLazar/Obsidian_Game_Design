@@ -12,7 +12,7 @@
 		{"id":"4d520baee2235bd0","type":"text","text":"Perception","x":-760,"y":-141,"width":250,"height":60,"color":"2"},
 		{"id":"8894dabbf17d5698","type":"text","text":"Charisma","x":-760,"y":-70,"width":250,"height":60,"color":"#e571c0"},
 		{"id":"b7666e93e475ae17","type":"text","text":"Local Expert: Per Locations","x":-760,"y":0,"width":250,"height":60,"color":"#8396c3"},
-		{"id":"0ed11e13704c8abc","type":"text","text":"Wis: Nature\nWis: Religion","x":-360,"y":-310,"width":250,"height":60},
+		{"id":"0ed11e13704c8abc","type":"text","text":"Int: Nature\nWis: Religion","x":-360,"y":-310,"width":250,"height":60},
 		{"id":"4a372e9b1aa9c8df","type":"text","text":"Dexterity","x":-760,"y":-452,"width":250,"height":60,"color":"4"},
 		{"id":"316c6e305c726c14","type":"text","text":"Intuition","x":-760,"y":-370,"width":250,"height":60,"color":"6"},
 		{"id":"a80f768d4dabe5f3","type":"text","text":"Rolling:\n5d4 drop 1\n","x":-340,"y":90,"width":250,"height":70},

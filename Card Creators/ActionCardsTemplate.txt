@@ -3,36 +3,57 @@ LINK="PassiveCardData.ods"
 ; Settings
 UNIT = INCH
 PAGE = 8.5, 11, PORTRAIT
+CARDSIZE = 2.5, 3.5
 BORDER = RECTANGLE, #000000, 0.1
 
 
 VISUAL=, 10, 10
 ;DescriptiveImage
-IMAGE=,"[NAME].png",{-169/300}%,{8551/-450}%,{60253/600}%,{100/1}%
+IMAGE=,"[NAME].png",{10244/635}%,{9059/889}%,{358/5}%,{62145/889}%
+RECTANGLE=,{2015/127}%,50%,{45719/635}%,{3955/127}%,#FFFFFF
+;[CostDiamond]Cost Diamond Background
+RHOMBUS=,{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,#FFFFFF,.01
 ;[CostDiamond]CostDiamond
-RHOMBUS=,{677/300}%,{761/900}%,{1361/50}%,{817/45}%,#000000,EMPTY,.01
+RHOMBUS=,{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,EMPTY,.01
 ;[CostDiamond]Cost Diamond Text
 FONT=Bahnschrift,10,T,#000000
 ;ResourceCost Stat Diamond Text
-TEXT="1-{(RESOURCECOST)}",[RESOURCECOST],{5669/600}%,{7111/900}%,{7531/600}%,{149/36}%
+TEXT="1-{(RESOURCECOST)}",[RESOURCECOST],{6011/635}%,{7027/889}%,{7958/635}%,{520/127}%
 ;NameUnderline(locked)
-RECTANGLE=,{8801/300}%,{2963/300}%,{7007/120}%,{253/900}%,#000000
+RECTANGLE=,{18626/635}%,{8805/889}%,{292/5}%,{253/889}%,#000000
 ;NameText(locked)
-TEXT="1-{(NAME)}",[NAME],{18787/600}%,{2201/450}%,{33173/600}%,{1411/300}%
+TEXT="1-{(NAME)}",[NAME],{19896/635}%,{34/7}%,{35136/635}%,{4148/889}%
 ;RangeText
-TEXT="1-{(RANGE)}",[RANGE],{141/40}%,{17441/900}%,{952/75}%,{1411/300}%
+TEXT="1-{(RANGE)}",[RANGE],{2201/635}%,{17187/889}%,{8043/635}%,{4148/889}%
 ;DescriptionFont
 FONT=Bahnschrift,8,,#000000
-;DescriptionText
-TEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{2877/200}%,{25061/300}%,{5416/75}%,{1157/100}%,LEFT,WORDWRAP
-IMAGE=,"action.png",{1117/120}%,{22097/900}%,{4231/600}%,{4487/900}%,0,PN
-IMAGE=,"action.png",{4823/600}%,{22097/900}%,{4231/600}%,{4487/900}%,0,PN
-IMAGE=,"FinalTextBox.png",{169/600}%,{67309/900}%,{5983/60}%,{2269/90}%
+;[SepLine]SepLineLine
+RECTANGLE=,{12022/635}%,{372/7}%,{41909/635}%,{2/7}%,#000000
+;[SepLine]SepLineDiamond(locked)
+RHOMBUS=,{31157/635}%,{46227/889}%,{2539/635}%,{2370/889}%,#000000,#FFFFFF,.01
 ENDVISUAL
 
-;ActionCostImage
-IF = [TYPE] = "A"
-IMAGE="1-{(TYPE)}","action.png",{24203/300}%,{769/75}%,{4231/600}%,{4487/900}%,0,PN
-ELSEIF = [TYPE] = "R"
-IMAGE="1-{(TYPE)}","reaction.png",{24203/300}%,{769/75}%,{4231/600}%,{4487/900}%,0,PN
+IF = [ON] = ""
+;DescriptionText
+TEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{9736/635}%,{51138/889}%,{45889/635}%,{200/7}%,LEFT,WORDWRAP
+ELSE
+;DescriptionText
+TEXT=,"     : [ON]\13\\13\[DESCRIPTION]",{10413/635}%,{49106/889}%,{45889/635}%,{37930/889}%,LEFT,WORDWRAP
+;OnReaction(locked)
+IMAGE=,"reaction.png",{9821/635}%,{48683/889}%,{4487/635}%,{4402/889}%,0,PN
 ENDIF
+
+IF = [ACTIONCOST] > 0
+;[ActionBar]2nd Chevron
+IMAGE=,"action.png",{5079/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+ELSEIF = [ACTIONCOST] > 1
+;[ActionBar]1st Chevron
+IMAGE=,"action.png",{34/5}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+ELSEIF = [ACTIONCOST] > 2
+;[ActionBar]3rd Chevron
+IMAGE=,"action.png",{5926/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+ENDIF
+
+IMAGE = 6, "BackImage.png", 0, 0, 100%, 100%, 0
+DUPLEX = 1-5, 6
+PRINT = DUPLEX
