@@ -1,0 +1,8 @@
+LINK="./Data Files/ItemCardData_fixed.ods"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE, HV
+CARDSIZE = 2.5, 3.5
+GAP = .5, .25
+BORDER = ROUNDED, #000000, 0.1
