@@ -1,0 +1,99 @@
+LINK="./Data Files/ItemCardData_fixed.ods"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, LANDSCAPE, HV
+CARDSIZE = 2.5, 3.5
+GAP = .5, .25
+BORDER = ROUNDED, #000000, 0.1
+[FrontRange] = 1-{(NAME)}
+[BackRange] = {(NAME) + 1}-{(NAME) * 2}
+
+VISUAL=, 10, 10
+;[CostDiamond]Cost Diamond Background
+RHOMBUS=[FrontRange],{1439/635}%,{761/889}%,{17356/635}%,{16171/889}%,#000000,#0000FF#00004C#FFFFFF@0,.01
+;[CostDiamond]CostDiamond
+RHOMBUS=[FrontRange],{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,EMPTY,.01
+;[CostDiamond]Cost Diamond Text
+FONT=Bahnschrift,10,T,#000000
+;NameUnderline(locked)
+RECTANGLE=[FrontRange],{18626/635}%,{8805/889}%,{292/5}%,{253/889}%,#000000
+;NameText(locked)
+TEXT=[FrontRange],[NAME],{19896/635}%,{34/7}%,{35136/635}%,{4148/889}%
+;RangeText
+TEXT=[FrontRange],[RANGE],{2201/635}%,{17187/889}%,{8043/635}%,{4148/889}%
+;DescriptionFont
+FONT=Bahnschrift,8,,#000000
+;[SepLine]SepLineLine
+RECTANGLE=[FrontRange],{12022/635}%,{41994/889}%,{41909/635}%,{2/7}%,#000000
+;[SepLine]SepLineDiamond(locked)
+RHOMBUS=[FrontRange],{31157/635}%,{46/1}%,{2539/635}%,{2455/889}%,#000000,#FFFFFF,.01
+;Damage
+TEXT=[FrontRange],[DAMAGEROLL],{148/5}%,{9313/889}%,{36999/635}%,{4063/889}%
+ENDVISUAL
+
+IF = [MediumThreshold] = ""
+;Vertical Threshold Line
+RECTANGLE=[FrontRange],{21763/635}%,{16558/889}%,{268/635}%,{12293/889}%,#000000
+;FirstThreshold
+TEXT=[FrontRange],[HIGHTHRESHOLD],{2651/127}%,{17478/889}%,{1612/127}%,{10788/889}%
+;FirstThresholdDescription
+TEXT=[FrontRange],[HIGHTHRESHOLDDESCRIPTION],{4496/127}%,{17646/889}%,{31346/635}%,{10035/889}%,CENTER,WWCENTER
+ELSEIF = [LowThreshold] = ""
+;Vertical Threshold Line
+RECTANGLE=[FrontRange],{21763/635}%,{16561/889}%,{268/635}%,{19318/889}%,#000000
+;FirstThreshold
+TEXT=[FrontRange],[HIGHTHRESHOLD],{2651/127}%,{18817/889}%,{1612/127}%,{6439/889}%
+;FirstThresholdDescription
+TEXT=[FrontRange],[HIGHTHRESHOLDDESCRIPTION],{4496/127}%,{17646/889}%,{31346/635}%,{1123/127}%,CENTER,WWCENTER
+;First Threshold Seperator
+RECTANGLE=[FrontRange],{12001/635}%,{26092/889}%,{8383/127}%,{250/889}%,#000000
+;MediumThreshold
+TEXT=[FrontRange],[MEDIUMTHRESHOLD],{2651/127}%,{27598/889}%,{1612/127}%,{6439/889}%
+;MediumThresholdDescription
+TEXT=[FrontRange],[MEDIUMTHRESHOLDDESCRIPTION],{4496/127}%,{3823/127}%,{31346/635}%,{7694/889}%,CENTER,WWCENTER
+ELSE
+;Vertical Threshold Line(locked)
+RECTANGLE=,{21763/635}%,{12461/889}%,{268/635}%,{26343/889}%,#000000
+;FirstThreshold
+TEXT=[FrontRange],[HIGHTHRESHOLD],{2651/127}%,{14384/889}%,{1612/127}%,{6439/889}%
+;FirstThresholdDescription
+TEXT=[FrontRange],[HIGHTHRESHOLDDESCRIPTION],{4496/127}%,{12962/889}%,{31346/635}%,{1123/127}%,CENTER,WWCENTER
+;First Threshold Seperator
+RECTANGLE=[FrontRange],{12001/635}%,{21409/889}%,{8383/127}%,{250/889}%,#000000
+;MediumThreshold
+TEXT=[FrontRange],[MEDIUMTHRESHOLD],{2651/127}%,{23918/889}%,{1612/127}%,{6439/889}%
+;MediumThresholdDescription
+TEXT=[FrontRange],[MEDIUMTHRESHOLDDESCRIPTION],{4496/127}%,{22664/889}%,{31346/635}%,{7694/889}%,CENTER,WWCENTER
+;Second Threshold Seperator
+RECTANGLE=[FrontRange],{12001/635}%,{30943/889}%,{8383/127}%,{250/889}%,#000000
+;LowThreshold
+TEXT=[FrontRange],[LOWTHRESHOLD],{2651/127}%,{4528/127}%,{1612/127}%,{6439/889}%
+;LowThresholdDescription
+TEXT=[FrontRange],[LOWTHRESHOLDDESCRIPTION],{4496/127}%,{31361/889}%,{31346/635}%,{7694/889}%,CENTER,WWCENTER
+ENDIF
+
+IF = [ON] = ""
+;DescriptionText
+TEXT=[FrontRange],[DESCRIPTION],{9736/635}%,{51138/889}%,{45889/635}%,{200/7}%,LEFT,WORDWRAP
+ELSE
+;DescriptionText
+TEXT=[FrontRange],"     : [ON]\13\\13\[DESCRIPTION]",{10413/635}%,{49106/889}%,{45889/635}%,{37930/889}%,LEFT,WORDWRAP
+;OnReaction(locked)
+IMAGE=[FrontRange],"reaction.png",{9821/635}%,{48683/889}%,{4487/635}%,{4402/889}%,0,PN
+ENDIF
+
+IF = [ACTIONCOST] > 0
+;[ActionBar]2nd Chevron
+IMAGE=[FrontRange],"action.png",{5079/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+ELSEIF = [ACTIONCOST] > 1
+;[ActionBar]1st Chevron
+IMAGE=[FrontRange],"action.png",{34/5}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+ELSEIF = [ACTIONCOST] > 2
+;[ActionBar]3rd Chevron
+IMAGE=[FrontRange],"action.png",{5926/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+ENDIF
+
+IMAGE = [BackRange], "[BackgroundFile].png", 0, 0, 100%, 100%, 0
+DUPLEX = [FrontRange], [BackRange]
+PRINT = DUPLEX

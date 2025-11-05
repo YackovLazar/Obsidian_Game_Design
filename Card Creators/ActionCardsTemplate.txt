@@ -2,58 +2,60 @@ LINK="PassiveCardData.ods"
 
 ; Settings
 UNIT = INCH
-PAGE = 8.5, 11, PORTRAIT
+PAGE = 8.5, 11, LANDSCAPE, HV
 CARDSIZE = 2.5, 3.5
-BORDER = RECTANGLE, #000000, 0.1
+GAP = .5, .25
+BORDER = ROUNDED, #000000, 0.1
+[FrontRange] = 1-{(NAME)}
+[BackRange] = {(NAME) + 1}-{(NAME) * 2}
 
 
 VISUAL=, 10, 10
 ;DescriptiveImage
-IMAGE=,"[NAME].png",{10244/635}%,{9059/889}%,{358/5}%,{62145/889}%
-RECTANGLE=,{2015/127}%,50%,{45719/635}%,{3955/127}%,#FFFFFF
+IMAGE=[FrontRange],"[NAME].png",{10244/635}%,{9059/889}%,{358/5}%,{32765/889}%
 ;[CostDiamond]Cost Diamond Background
-RHOMBUS=,{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,#FFFFFF,.01
+RHOMBUS=[FrontRange],{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,#FFFFFF,.01
 ;[CostDiamond]CostDiamond
-RHOMBUS=,{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,EMPTY,.01
+RHOMBUS=[FrontRange],{1439/635}%,{761/889}%,{17271/635}%,{16171/889}%,#000000,EMPTY,.01
 ;[CostDiamond]Cost Diamond Text
 FONT=Bahnschrift,10,T,#000000
 ;ResourceCost Stat Diamond Text
-TEXT="1-{(RESOURCECOST)}",[RESOURCECOST],{6011/635}%,{7027/889}%,{7958/635}%,{520/127}%
+TEXT=[FrontRange],[RESOURCECOST],{6011/635}%,{7027/889}%,{7958/635}%,{520/127}%
 ;NameUnderline(locked)
 RECTANGLE=,{18626/635}%,{8805/889}%,{292/5}%,{253/889}%,#000000
 ;NameText(locked)
-TEXT="1-{(NAME)}",[NAME],{19896/635}%,{34/7}%,{35136/635}%,{4148/889}%
+TEXT=[FrontRange],[NAME],{19896/635}%,{34/7}%,{35136/635}%,{4148/889}%
 ;RangeText
-TEXT="1-{(RANGE)}",[RANGE],{2201/635}%,{17187/889}%,{8043/635}%,{4148/889}%
+TEXT=[FrontRange],[RANGE],{2201/635}%,{17187/889}%,{8043/635}%,{4148/889}%
 ;DescriptionFont
 FONT=Bahnschrift,8,,#000000
 ;[SepLine]SepLineLine
-RECTANGLE=,{12022/635}%,{372/7}%,{41909/635}%,{2/7}%,#000000
+RECTANGLE=[FrontRange],{12022/635}%,{5992/127}%,{41909/635}%,{2/7}%,#000000
 ;[SepLine]SepLineDiamond(locked)
-RHOMBUS=,{31157/635}%,{46227/889}%,{2539/635}%,{2370/889}%,#000000,#FFFFFF,.01
+RHOMBUS=[FrontRange],{6240/127}%,{40900/889}%,{500/127}%,{2400/889}%,#000000,#FFFFFF,.01
 ENDVISUAL
 
 IF = [ON] = ""
 ;DescriptionText
-TEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{9736/635}%,{51138/889}%,{45889/635}%,{200/7}%,LEFT,WORDWRAP
+TEXT=[FrontRange],[DESCRIPTION],{9736/635}%,{51138/889}%,{45889/635}%,{200/7}%,LEFT,WORDWRAP
 ELSE
 ;DescriptionText
-TEXT=,"     : [ON]\13\\13\[DESCRIPTION]",{10413/635}%,{49106/889}%,{45889/635}%,{37930/889}%,LEFT,WORDWRAP
+TEXT=[FrontRange],"     : [ON]\13\\13\[DESCRIPTION]",{10413/635}%,{49106/889}%,{45889/635}%,{37930/889}%,LEFT,WORDWRAP
 ;OnReaction(locked)
-IMAGE=,"reaction.png",{9821/635}%,{48683/889}%,{4487/635}%,{4402/889}%,0,PN
+IMAGE=[FrontRange],"reaction.png",{9821/635}%,{48683/889}%,{4487/635}%,{4402/889}%,0,PN
 ENDIF
 
 IF = [ACTIONCOST] > 0
 ;[ActionBar]2nd Chevron
-IMAGE=,"action.png",{5079/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+IMAGE=[FrontRange],"action.png",{5079/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
 ELSEIF = [ACTIONCOST] > 1
 ;[ActionBar]1st Chevron
-IMAGE=,"action.png",{34/5}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+IMAGE=[FrontRange],"action.png",{34/5}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
 ELSEIF = [ACTIONCOST] > 2
 ;[ActionBar]3rd Chevron
-IMAGE=,"action.png",{5926/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
+IMAGE=[FrontRange],"action.png",{5926/635}%,{172/7}%,{4487/635}%,{4402/889}%,0,PN
 ENDIF
 
-IMAGE = 6, "BackImage.png", 0, 0, 100%, 100%, 0
-DUPLEX = 1-5, 6
+IMAGE = [BackRange], "[BackgroundFile].png", 0, 0, 100%, 100%, 0
+DUPLEX = [FrontRange], [BackRange]
 PRINT = DUPLEX
