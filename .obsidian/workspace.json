@@ -85,9 +85,21 @@
               "icon": "lucide-file",
               "title": "Precision"
             }
+          },
+          {
+            "id": "fced0acd6581ca64",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -231,6 +243,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -240,7 +253,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5eea31bc6e9d393",
+  "active": "fced0acd6581ca64",
   "lastOpenFiles": [
     "Card Creators/Empty.txt",
     "Classes/Performer/Performer.canvas",
