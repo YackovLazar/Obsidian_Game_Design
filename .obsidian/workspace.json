@@ -76,30 +76,21 @@
             "id": "a2a0c6d28a66b7eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Classes/Fighter (Brute)/Precision.md",
-                "mode": "source",
-                "source": false
+                "file": "Classes/Resonator/Resonance.canvas",
+                "viewState": {
+                  "x": 70,
+                  "y": 245.25,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Precision"
-            }
-          },
-          {
-            "id": "fced0acd6581ca64",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-layout-dashboard",
+              "title": "Resonance"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -253,33 +244,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fced0acd6581ca64",
+  "active": "a2a0c6d28a66b7eb",
   "lastOpenFiles": [
+    "Card Creators/ActionCardsTemplate.pdf",
+    "Classes/Resonator/Resonance.canvas",
+    "Classes/Resonator",
+    "Card Creators/~$PassiveCardData.ods",
+    "Card Creators/Data Files/~$ItemCardData.ods",
+    "Card Creators/Bamboozle.png",
+    "Card Creators/Bobbert.png",
+    "Card Creators/EVADE_Old.png",
+    "Card Creators/Focused Chaos.png",
+    "Card Creators/Hand of Satan.png",
+    "Card Creators/I Know Your Type.png",
+    "Card Creators/Tracker's Mark.png",
+    "Card Creators/WEAKNESS SPOTTED.png",
+    "Card Creators/Sow Confusion.png",
+    "Classes/Fighter (Brute)/Precision.md",
     "Card Creators/Empty.txt",
     "Classes/Performer/Performer.canvas",
     "Card Creators/FinalTextBox.png",
     "Card Creators/EVADE.png.crdownload",
-    "Card Creators/EVADE.png",
-    "Card Creators/Evade.png",
-    "Card Creators/action.png",
     "Card Creators/2B291100",
     "Card Creators/F29E0100",
-    "Card Creators/reaction.png",
-    "Card Creators/~$PassiveCardData.ods",
-    "Card Creators/chevron_right.png",
-    "Card Creators/chevron_right_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png",
     "Card Creators/SkillCardWithTargets.pdf",
     "Card Creators/SkillCards.csv.meta",
     "Card Creators/SkillCards.csv",
-    "Card Creators/SkillCardWithTargets.odg",
-    "Card Creators/PassiveCardData.ods",
-    "Card Creators/SkillCard.pdf",
-    "Card Creators/chevron_right.svg",
     "Stats.canvas",
     "Classes/Performer/Performer_Class_Bonuses.md",
     "Classes/Sneak/Ideas.md",
     "Classes/Alchemist/Alchemist.canvas",
-    "Classes/Fighter (Brute)/Precision.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
@@ -297,7 +291,6 @@
     "Classes/Fighter (Brute)/Fighter (Brute).canvas",
     "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
     "Classes/Fighter (Brute)/Posture.md",
-    "Classes/REQUIRES OVERHAUL/Elementalist.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Predetermined_Resolution.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Ordered.md",

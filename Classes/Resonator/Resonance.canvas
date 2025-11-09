@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"49ce2480e9879a6c","x":-380,"y":-163,"width":250,"height":85,"type":"text","text":"Resonant Skills create motes of resonance at their targets"},
+		{"id":"5946853253682350","x":-380,"y":-3,"width":250,"height":60,"type":"text","text":"They effect objects"},
+		{"id":"093551c75c766088","x":-323,"y":-289,"width":136,"height":69,"type":"text","text":"Resonance\n#Resource "},
+		{"id":"0ea23877ce394a9f","x":293,"y":-289,"width":144,"height":67,"type":"text","text":"Dissonance\n#Resource"},
+		{"id":"0bc905daef4e978c","x":240,"y":-165,"width":250,"height":85,"type":"text","text":"Dissonant Skills create Dissonance"},
+		{"id":"358a3e7a0743bd6b","x":241,"y":-6,"width":250,"height":60,"type":"text","text":"They effect people"},
+		{"id":"e832a682321264e4","x":-87,"y":-520,"width":288,"height":60,"type":"text","text":"Only one can be stacked at a time"},
+		{"id":"6848acfa03c7872e","x":-68,"y":-387,"width":250,"height":132,"type":"text","text":"Causes Hype - All allies who hear it get +Shattered Dissonance to all attacks this turn"},
+		{"id":"a896d5d5d2c6f20e","x":-68,"y":-192,"width":250,"height":144,"type":"text","text":"Causes Shatter - The Dissonant trigger ability is cast from each mote of resonance. Shatter all motes of resonance."},
+		{"id":"691ef8363c3d2091","x":241,"y":163,"width":250,"height":60,"type":"text","text":"Power Chord"},
+		{"id":"7c37ebc227d0b028","x":240,"y":250,"width":250,"height":60,"type":"text","text":"Bad Forme - Parry with possible pushback"},
+		{"id":"e0221afc1fa742a0","x":241,"y":340,"width":250,"height":60,"type":"text","text":"Screech"},
+		{"id":"5e0b65aa01f68322","x":-380,"y":163,"width":250,"height":60,"type":"text","text":"Force Window"},
+		{"id":"1db983029935dd8a","x":-380,"y":250,"width":250,"height":60,"type":"text","text":"Ascending Scale"},
+		{"id":"619f3dbc1d676978","x":-380,"y":340,"width":250,"height":60,"type":"text","text":"Rythmic Beat"},
+		{"id":"4f54384fd805e117","x":-68,"y":480,"width":250,"height":60,"type":"text","text":"Guitar Solo - Can be either - Ult"}
+	],
+	"edges":[
+		{"id":"a301225ea262ebb7","fromNode":"093551c75c766088","fromSide":"bottom","toNode":"49ce2480e9879a6c","toSide":"top"},
+		{"id":"ec3a96f0deb2e421","fromNode":"49ce2480e9879a6c","fromSide":"bottom","toNode":"5946853253682350","toSide":"top"},
+		{"id":"10490e2e1a68f69e","fromNode":"0ea23877ce394a9f","fromSide":"bottom","toNode":"0bc905daef4e978c","toSide":"top"},
+		{"id":"0ccfa3d37a912c34","fromNode":"0bc905daef4e978c","fromSide":"bottom","toNode":"358a3e7a0743bd6b","toSide":"top"},
+		{"id":"56653b728afd3a63","fromNode":"093551c75c766088","fromSide":"right","toNode":"a896d5d5d2c6f20e","toSide":"left"},
+		{"id":"87213aa6b134820e","fromNode":"a896d5d5d2c6f20e","fromSide":"right","toNode":"0ea23877ce394a9f","toSide":"left"},
+		{"id":"97d381bee9b42350","fromNode":"0ea23877ce394a9f","fromSide":"left","toNode":"6848acfa03c7872e","toSide":"right"},
+		{"id":"e6fe1bc897d66d0b","fromNode":"6848acfa03c7872e","fromSide":"left","toNode":"093551c75c766088","toSide":"right"}
+	]
+}
