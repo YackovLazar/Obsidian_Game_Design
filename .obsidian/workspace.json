@@ -78,15 +78,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Classes/Resonator/Resonance.canvas",
+                "file": "Shtick.canvas",
                 "viewState": {
-                  "x": 70,
-                  "y": 245.25,
+                  "x": 716,
+                  "y": 323,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Resonance"
+              "title": "Shtick"
             }
           }
         ],
@@ -246,13 +246,14 @@
   },
   "active": "a2a0c6d28a66b7eb",
   "lastOpenFiles": [
+    "Classes/Resonator/Resonance.canvas",
+    "Shtick.canvas",
     "Documents/Chartacter Sheet.pdf",
     "Documents/Chartacter Sheet.afpub~lock~",
     "Documents/Chartacter Sheet.afpub",
     "Documents",
     "New folder",
     "Card Creators/ActionCardsTemplate.pdf",
-    "Classes/Resonator/Resonance.canvas",
     "Classes/Resonator",
     "Card Creators/~$PassiveCardData.ods",
     "Card Creators/Data Files/~$ItemCardData.ods",
@@ -269,7 +270,6 @@
     "Card Creators/Empty.txt",
     "Classes/Performer/Performer.canvas",
     "Card Creators/FinalTextBox.png",
-    "Card Creators/EVADE.png.crdownload",
     "Stats.canvas",
     "Classes/Performer/Performer_Class_Bonuses.md",
     "Classes/Sneak/Ideas.md",
