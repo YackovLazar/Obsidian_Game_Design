@@ -80,17 +80,29 @@
               "state": {
                 "file": "Shtick.canvas",
                 "viewState": {
-                  "x": 716,
-                  "y": 323,
+                  "x": -522,
+                  "y": 920,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Shtick"
             }
+          },
+          {
+            "id": "c07155990c7d09eb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -244,7 +256,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2a0c6d28a66b7eb",
+  "active": "c07155990c7d09eb",
   "lastOpenFiles": [
     "Classes/Resonator/Resonance.canvas",
     "Shtick.canvas",
