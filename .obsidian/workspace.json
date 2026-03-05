@@ -93,12 +93,17 @@
             "id": "c07155990c7d09eb",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ],
@@ -258,6 +263,7 @@
   },
   "active": "c07155990c7d09eb",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Classes/Resonator/Resonance.canvas",
     "Shtick.canvas",
     "Documents/Chartacter Sheet.pdf",
@@ -300,7 +306,6 @@
     "Religion/Source.md",
     "Weapons/Weapons System.canvas",
     "Weapons/Alternative-Additional Strikes.md",
-    "Classes/Fighter (Brute)/Fighter (Brute).canvas",
     "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
     "Classes/Fighter (Brute)/Posture.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
