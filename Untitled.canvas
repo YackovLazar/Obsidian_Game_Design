@@ -2,7 +2,9 @@
 	"nodes":[
 		{"id":"c95449923a7ef2b0","x":-160,"y":-380,"width":250,"height":60,"type":"text","text":"Model - (Data)"},
 		{"id":"1301d8a8853a1f73","x":-410,"y":-80,"width":250,"height":60,"type":"text","text":"View - (BoardPanel)"},
-		{"id":"c928afef38c15d8e","x":90,"y":-80,"width":250,"height":60,"type":"text","text":"Controller - (PaintFrame)"}
+		{"id":"c928afef38c15d8e","x":90,"y":-80,"width":250,"height":60,"type":"text","text":"Controller - (PaintFrame)"},
+		{"id":"74fdb2f6eeaeee5e","x":-380,"y":340,"width":680,"height":540,"type":"text","text":""},
+		{"id":"18b82e23109df9f4","x":-320,"y":360,"width":560,"height":500,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"c5a962fb20e3ff1d","fromNode":"1301d8a8853a1f73","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Checks"},
