@@ -1,6 +1,13 @@
 {
 	"nodes":[
-		{"id":"a24c7afa21983518","x":-99,"y":-305,"width":250,"height":60,"type":"text","text":"Boardpanel"}
+		{"id":"c95449923a7ef2b0","x":-160,"y":-380,"width":250,"height":60,"type":"text","text":"Model - (Data)"},
+		{"id":"1301d8a8853a1f73","x":-410,"y":-80,"width":250,"height":60,"type":"text","text":"View - (BoardPanel)"},
+		{"id":"c928afef38c15d8e","x":90,"y":-80,"width":250,"height":60,"type":"text","text":"Controller - (PaintFrame)"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"c5a962fb20e3ff1d","fromNode":"1301d8a8853a1f73","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Checks"},
+		{"id":"b7bc1e826ac6c6e1","fromNode":"1301d8a8853a1f73","fromSide":"right","toNode":"c928afef38c15d8e","toSide":"left","label":"Send Event"},
+		{"id":"4426964143f29ec2","fromNode":"c928afef38c15d8e","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Update"},
+		{"id":"8bc774bf53cde4e3","fromNode":"c928afef38c15d8e","fromSide":"bottom","toNode":"1301d8a8853a1f73","toSide":"bottom","label":"Repaint"}
+	]
 }
