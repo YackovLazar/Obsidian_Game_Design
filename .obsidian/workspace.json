@@ -105,9 +105,21 @@
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "4b40db6ae8716d3c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -261,7 +273,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c07155990c7d09eb",
+  "active": "4b40db6ae8716d3c",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Classes/Resonator/Resonance.canvas",
