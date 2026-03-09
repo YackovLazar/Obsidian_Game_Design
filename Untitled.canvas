@@ -1,15 +1,20 @@
 {
 	"nodes":[
-		{"id":"c95449923a7ef2b0","x":-160,"y":-380,"width":250,"height":60,"type":"text","text":"Model - (Data)"},
-		{"id":"1301d8a8853a1f73","x":-410,"y":-80,"width":250,"height":60,"type":"text","text":"View - (BoardPanel)"},
-		{"id":"c928afef38c15d8e","x":90,"y":-80,"width":250,"height":60,"type":"text","text":"Controller - (PaintFrame)"},
-		{"id":"74fdb2f6eeaeee5e","x":-380,"y":340,"width":680,"height":540,"type":"text","text":""},
-		{"id":"18b82e23109df9f4","x":-320,"y":360,"width":560,"height":500,"type":"text","text":""}
+		{"id":"c95449923a7ef2b0","type":"text","text":"Model - (Data)","x":-160,"y":-380,"width":250,"height":60},
+		{"id":"1301d8a8853a1f73","type":"text","text":"View - (BoardPanel)","x":-410,"y":-80,"width":250,"height":60},
+		{"id":"c928afef38c15d8e","type":"text","text":"Controller - (PaintFrame)","x":90,"y":-80,"width":250,"height":60},
+		{"id":"74fdb2f6eeaeee5e","type":"text","text":"","x":-380,"y":340,"width":680,"height":540},
+		{"id":"18b82e23109df9f4","type":"text","text":"","x":-320,"y":360,"width":560,"height":500},
+		{"id":"de9deadb547f1dfc","x":-820,"y":-540,"width":250,"height":60,"type":"text","text":"Does Board Contain Click"},
+		{"id":"cf015352bbe2e5cd","x":-652,"y":-358,"width":272,"height":60,"type":"text","text":"Find which square was clicked"},
+		{"id":"702bec2df65b52ad","x":-1000,"y":-358,"width":250,"height":60,"type":"text","text":"Do Nothing"}
 	],
 	"edges":[
 		{"id":"c5a962fb20e3ff1d","fromNode":"1301d8a8853a1f73","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Checks"},
 		{"id":"b7bc1e826ac6c6e1","fromNode":"1301d8a8853a1f73","fromSide":"right","toNode":"c928afef38c15d8e","toSide":"left","label":"Send Event"},
 		{"id":"4426964143f29ec2","fromNode":"c928afef38c15d8e","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Update"},
-		{"id":"8bc774bf53cde4e3","fromNode":"c928afef38c15d8e","fromSide":"bottom","toNode":"1301d8a8853a1f73","toSide":"bottom","label":"Repaint"}
+		{"id":"8bc774bf53cde4e3","fromNode":"c928afef38c15d8e","fromSide":"bottom","toNode":"1301d8a8853a1f73","toSide":"bottom","label":"Repaint"},
+		{"id":"b4e605c182da16e8","fromNode":"de9deadb547f1dfc","fromSide":"bottom","toNode":"cf015352bbe2e5cd","toSide":"top","label":"YES"},
+		{"id":"214d0f4366767689","fromNode":"de9deadb547f1dfc","fromSide":"bottom","toNode":"702bec2df65b52ad","toSide":"top","label":"NO"}
 	]
 }
