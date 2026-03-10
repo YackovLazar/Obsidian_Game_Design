@@ -5,9 +5,10 @@
 		{"id":"c928afef38c15d8e","type":"text","text":"Controller - (PaintFrame)","x":90,"y":-80,"width":250,"height":60},
 		{"id":"74fdb2f6eeaeee5e","type":"text","text":"","x":-380,"y":340,"width":680,"height":540},
 		{"id":"18b82e23109df9f4","type":"text","text":"","x":-320,"y":360,"width":560,"height":500},
-		{"id":"de9deadb547f1dfc","x":-820,"y":-540,"width":250,"height":60,"type":"text","text":"Does Board Contain Click"},
-		{"id":"cf015352bbe2e5cd","x":-652,"y":-358,"width":272,"height":60,"type":"text","text":"Find which square was clicked"},
-		{"id":"702bec2df65b52ad","x":-1000,"y":-358,"width":250,"height":60,"type":"text","text":"Do Nothing"}
+		{"id":"de9deadb547f1dfc","type":"text","text":"Does Board Contain Click","x":-920,"y":-532,"width":250,"height":60},
+		{"id":"cf015352bbe2e5cd","type":"text","text":"Find which square was clicked","x":-752,"y":-350,"width":272,"height":60},
+		{"id":"702bec2df65b52ad","type":"text","text":"Do Nothing","x":-1100,"y":-350,"width":250,"height":60},
+		{"id":"daa9f6a57c38aba5","x":-741,"y":-161,"width":250,"height":60,"type":"text","text":"Update Model"}
 	],
 	"edges":[
 		{"id":"c5a962fb20e3ff1d","fromNode":"1301d8a8853a1f73","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Checks"},
@@ -15,6 +16,7 @@
 		{"id":"4426964143f29ec2","fromNode":"c928afef38c15d8e","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Update"},
 		{"id":"8bc774bf53cde4e3","fromNode":"c928afef38c15d8e","fromSide":"bottom","toNode":"1301d8a8853a1f73","toSide":"bottom","label":"Repaint"},
 		{"id":"b4e605c182da16e8","fromNode":"de9deadb547f1dfc","fromSide":"bottom","toNode":"cf015352bbe2e5cd","toSide":"top","label":"YES"},
-		{"id":"214d0f4366767689","fromNode":"de9deadb547f1dfc","fromSide":"bottom","toNode":"702bec2df65b52ad","toSide":"top","label":"NO"}
+		{"id":"214d0f4366767689","fromNode":"de9deadb547f1dfc","fromSide":"bottom","toNode":"702bec2df65b52ad","toSide":"top","label":"NO"},
+		{"id":"11973cd260a9eab9","fromNode":"cf015352bbe2e5cd","fromSide":"bottom","toNode":"daa9f6a57c38aba5","toSide":"top"}
 	]
 }
