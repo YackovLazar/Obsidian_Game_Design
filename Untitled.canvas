@@ -12,7 +12,9 @@
 		{"id":"c1f15a2729fd4d28","x":-1040,"y":-110,"width":250,"height":60,"type":"text","text":"If Whole number, its on a line"},
 		{"id":"99da84ba4bc54125","x":-1214,"y":41,"width":250,"height":60,"type":"text","text":"No Click"},
 		{"id":"2db4283b4ea4fa5d","x":-747,"y":-108,"width":250,"height":60,"type":"text","text":"Else"},
-		{"id":"daa9f6a57c38aba5","x":-820,"y":41,"width":250,"height":60,"type":"text","text":"Update Model"}
+		{"id":"daa9f6a57c38aba5","x":-820,"y":41,"width":250,"height":60,"type":"text","text":"Update Model"},
+		{"id":"580280e2edb4b601","x":-1600,"y":-532,"width":250,"height":60,"type":"text","text":"Prompt Player to play again"},
+		{"id":"4115633a22760065","x":-1600,"y":-440,"width":250,"height":60,"type":"text","text":"Update Banner"}
 	],
 	"edges":[
 		{"id":"c5a962fb20e3ff1d","fromNode":"1301d8a8853a1f73","fromSide":"top","toNode":"c95449923a7ef2b0","toSide":"bottom","label":"Checks"},
