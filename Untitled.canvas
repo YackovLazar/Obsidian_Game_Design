@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"94890f8d60637179","x":-1828,"y":328,"width":250,"height":60,"type":"text","text":"Wesley Snipes - Overwatch"}
+		{"id":"94890f8d60637179","x":-1828,"y":328,"width":250,"height":152,"type":"text","text":"Wesley Snipes - Overwatch\n5x30 line. Entering the line, wesley shoots, 2d6 damage, 3x per round. If attacked, leaves."},
+		{"id":"e9ddcccd4a5aa8c6","x":-1585,"y":180,"width":122,"height":60,"type":"text","text":"3 Rounds"},
+		{"id":"41c578180cf94d68","x":-1463,"y":328,"width":250,"height":123,"type":"text","text":"Hugh Mungus - Enemies within 5 ft have disadvantage on damage and perception checks"},
+		{"id":"557c057b8985ef5d","x":-1828,"y":540,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[]
 }
