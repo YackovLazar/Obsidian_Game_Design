@@ -9,9 +9,13 @@
 		{"id":"622867403acf036c","x":-1180,"y":540,"width":250,"height":50,"type":"text","text":"HP - 75"},
 		{"id":"6b8c5efb6de1b20f","x":-2120,"y":540,"width":250,"height":60,"type":"text","text":"HP - 100"},
 		{"id":"390d990bb84f558e","x":-2120,"y":328,"width":250,"height":60,"type":"text","text":"HP - 20"},
-		{"id":"f85248cc5144ceb2","x":-2108,"y":864,"width":250,"height":216,"type":"text","text":"Priests\n35 HP\nMelee staff strike - 1d4 + 1\n"},
 		{"id":"eabacda4e4c2d23a","x":-1640,"y":740,"width":250,"height":60,"type":"text","text":"Mercy - Villain Resource"},
-		{"id":"71c224cf9ff028b9","x":-1640,"y":834,"width":250,"height":86,"type":"text","text":"Priests generate Xd4 each turn. X is number of intact anchors"}
+		{"id":"71c224cf9ff028b9","x":-1640,"y":834,"width":250,"height":86,"type":"text","text":"Priests generate Xd4 each turn. X is number of intact anchors"},
+		{"id":"6e2af38f1c29e9fd","x":-1311,"y":745,"width":291,"height":227,"type":"text","text":"Benevolence - Stats Effect\nStacks\nAt 5 Stacks \n- Nearest Enemy steals 2d4 Psychic Dmg  \n- 5 Mercy \n- Reset stacks"},
+		{"id":"c2bd261be13b2289","x":-1311,"y":1005,"width":204,"height":295,"type":"text","text":"Monks\n35 HP\nStrike - 1d6 + 3\n6 - 1 Benevolence\n8 - 2 Benevolence\n\n5 Mercy - Chain Stance -\n- 10 Range\n- 1 Benevolence"},
+		{"id":"f85248cc5144ceb2","x":-1640,"y":972,"width":250,"height":216,"type":"text","text":"Priests\n25 HP\nMelee staff strike - 1d4 + 1\n5 Mercy - 10 hp Barrier 5ft\n15 Mercy - On ally death - Ally makes an attack"},
+		{"id":"71821e4935021a82","x":-1311,"y":1340,"width":250,"height":280,"type":"text","text":"Quatermaster\n- 50 HP\n- Elite Monk, arms are cut off, replaced by 8 Black Chains\n\n10 Mercy - Strike!\n- All monks make an extra strike"},
+		{"id":"c1839dcf3d585c7f","x":-1640,"y":1280,"width":250,"height":241,"type":"text","text":"Oracle\n- 30 HP\n- Elite Priest\nOrb Smash - 1d6 + 2\n20 Mercy - Nope, Didn't.\n- On Ally Death\n- Revive Ally"}
 	],
 	"edges":[]
 }
