@@ -8,7 +8,10 @@
 		{"id":"b51fb988070bb4cd","x":-1180,"y":328,"width":250,"height":60,"type":"text","text":"HP - 35"},
 		{"id":"622867403acf036c","x":-1180,"y":540,"width":250,"height":50,"type":"text","text":"HP - 75"},
 		{"id":"6b8c5efb6de1b20f","x":-2120,"y":540,"width":250,"height":60,"type":"text","text":"HP - 100"},
-		{"id":"390d990bb84f558e","x":-2120,"y":328,"width":250,"height":60,"type":"text","text":"HP - 20"}
+		{"id":"390d990bb84f558e","x":-2120,"y":328,"width":250,"height":60,"type":"text","text":"HP - 20"},
+		{"id":"f85248cc5144ceb2","x":-2108,"y":864,"width":250,"height":216,"type":"text","text":"Priests\n35 HP\nMelee staff strike - 1d4 + 1\n"},
+		{"id":"eabacda4e4c2d23a","x":-1640,"y":740,"width":250,"height":60,"type":"text","text":"Mercy - Villain Resource"},
+		{"id":"71c224cf9ff028b9","x":-1640,"y":834,"width":250,"height":86,"type":"text","text":"Priests generate Xd4 each turn. X is number of intact anchors"}
 	],
 	"edges":[]
 }
