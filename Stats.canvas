@@ -6,7 +6,7 @@
 		{"id":"26ca2a22dd7fb9b3","type":"text","text":"Arcana","x":140,"y":-212,"width":250,"height":60,"color":"5"},
 		{"id":"06530a281b4c349f","type":"text","text":"Per: Investigation","x":-360,"y":-182,"width":250,"height":60},
 		{"id":"534adba651819999","type":"text","text":"Per: Insight\nCha: Performance\nCha: Persuasion","x":-360,"y":-122,"width":250,"height":92},
-		{"id":"90be7cef29ebb5a5","type":"text","text":"Sub: Slight of Hand","x":-360,"y":-400,"width":250,"height":60},
+		{"id":"90be7cef29ebb5a5","type":"text","text":"Sub: Slight of Hand\nSub: Stealth","x":-360,"y":-400,"width":250,"height":60},
 		{"id":"2b9febf8417c7d1e","type":"text","text":"Knowledge","x":-760,"y":-280,"width":250,"height":60,"color":"5"},
 		{"id":"2174938af4f5479e","type":"text","text":"Subtlety","x":-760,"y":-212,"width":250,"height":60,"color":"#1f00bd"},
 		{"id":"4d520baee2235bd0","type":"text","text":"Perception","x":-760,"y":-141,"width":250,"height":60,"color":"2"},

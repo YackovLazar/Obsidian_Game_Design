@@ -95,27 +95,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Stats.canvas",
                 "viewState": {
-                  "x": -1545.9062560729021,
-                  "y": 1128.475543772681,
-                  "zoom": -0.3333333333333334
+                  "x": -185,
+                  "y": -180,
+                  "zoom": -0.05107418459426929
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "677834327bf9ae3b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "title": "Stats"
             }
           },
           {
@@ -131,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -285,7 +273,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "677834327bf9ae3b",
+  "active": "c07155990c7d09eb",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Classes/Resonator/Resonance.canvas",
