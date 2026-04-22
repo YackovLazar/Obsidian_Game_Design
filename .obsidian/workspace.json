@@ -90,23 +90,6 @@
             }
           },
           {
-            "id": "c07155990c7d09eb",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Stats.canvas",
-                "viewState": {
-                  "x": -185,
-                  "y": -180,
-                  "zoom": -0.05107418459426929
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Stats"
-            }
-          },
-          {
             "id": "4b40db6ae8716d3c",
             "type": "leaf",
             "state": {
@@ -273,8 +256,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c07155990c7d09eb",
+  "active": "4b40db6ae8716d3c",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Stats.canvas",
     "Untitled.canvas",
     "Classes/Resonator/Resonance.canvas",
     "Shtick.canvas",
@@ -297,10 +282,8 @@
     "Card Creators/WEAKNESS SPOTTED.png",
     "Card Creators/Sow Confusion.png",
     "Classes/Fighter (Brute)/Precision.md",
-    "Card Creators/Empty.txt",
     "Classes/Performer/Performer.canvas",
     "Card Creators/FinalTextBox.png",
-    "Stats.canvas",
     "Classes/Performer/Performer_Class_Bonuses.md",
     "Classes/Sneak/Ideas.md",
     "Classes/Alchemist/Alchemist.canvas",
@@ -316,7 +299,6 @@
     "Classes/Performer/Flow_Penalty.md",
     "Religion/Patrons and Piety.canvas",
     "Religion/Source.md",
-    "Weapons/Weapons System.canvas",
     "Weapons/Alternative-Additional Strikes.md",
     "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
     "Classes/Fighter (Brute)/Posture.md",
