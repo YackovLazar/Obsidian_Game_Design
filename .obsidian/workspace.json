@@ -93,12 +93,17 @@
             "id": "4b40db6ae8716d3c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "Shtick.canvas",
+                "viewState": {
+                  "x": -39.31531531531516,
+                  "y": 574.0990990990991,
+                  "zoom": -0.7980411709179743
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-layout-dashboard",
+              "title": "Shtick"
             }
           }
         ],
