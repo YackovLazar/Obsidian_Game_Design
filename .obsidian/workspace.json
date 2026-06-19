@@ -71,43 +71,9 @@
               "icon": "lucide-layout-dashboard",
               "title": "Stats"
             }
-          },
-          {
-            "id": "a2a0c6d28a66b7eb",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Shtick.canvas",
-                "viewState": {
-                  "x": -522,
-                  "y": 920,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Shtick"
-            }
-          },
-          {
-            "id": "4b40db6ae8716d3c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Shtick.canvas",
-                "viewState": {
-                  "x": -39.31531531531516,
-                  "y": 412.3963963963964,
-                  "zoom": -0.7980411709179743
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Shtick"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -261,14 +227,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b40db6ae8716d3c",
+  "active": "fd3d961266c117da",
   "lastOpenFiles": [
-    "Untitled.base",
-    "Stats.canvas",
     "Untitled.canvas",
-    "Classes/Resonator/Resonance.canvas",
+    "Untitled.base",
     "Shtick.canvas",
     "Documents/Chartacter Sheet.pdf",
+    "Weapons/Alternative-Additional Strikes.md",
+    "Weapons/Weapons System.canvas",
+    "Stats.canvas",
+    "Classes/Resonator/Resonance.canvas",
     "Documents/Chartacter Sheet.afpub~lock~",
     "Documents/Chartacter Sheet.afpub",
     "Documents",
@@ -302,9 +270,7 @@
     "Classes/Performer/Troubadour/Troubadour.canvas",
     "Classes/Performer/Troubadour/Troubadour Compositions/Compositions.canvas",
     "Classes/Performer/Flow_Penalty.md",
-    "Religion/Patrons and Piety.canvas",
     "Religion/Source.md",
-    "Weapons/Alternative-Additional Strikes.md",
     "Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",
     "Classes/Fighter (Brute)/Posture.md",
     "Classes/Performer/Troubadour/Troubadour Compositions/Keywords/Snowball.md",
