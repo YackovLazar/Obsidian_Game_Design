@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"76e8470bf4f884cf","type":"file","file":"Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md","x":-1320,"y":60,"width":470,"height":460},
+		{"id":"cb202f0aa186b135","type":"file","file":"Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md","x":-1320,"y":-480,"width":470,"height":500},
+		{"id":"d0df712c68651058","type":"file","file":"Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md","x":-189,"y":-480,"width":489,"height":500},
+		{"id":"2af86553bf15ecdc","type":"file","file":"Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md","x":-740,"y":-480,"width":460,"height":500},
+		{"id":"8826295fb29f253c","type":"text","text":"   Tier I","x":-570,"y":-600,"width":120,"height":60}
+	],
+	"edges":[]
+}
