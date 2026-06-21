@@ -8,72 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fab2d59e16ca6ac4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Stats.canvas",
-                "viewState": {
-                  "x": -185,
-                  "y": -180,
-                  "zoom": -0.3333333333333333
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Stats"
-            }
-          },
-          {
-            "id": "43c9829ccbd893b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sincere_Compliment"
-            }
-          },
-          {
-            "id": "55038f66057e848d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Stats.canvas",
-                "viewState": {
-                  "x": -185,
-                  "y": -180,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Stats"
-            }
-          },
-          {
             "id": "fd3d961266c117da",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Commoners/Stats.canvas",
+                "file": "Commoners/Races.canvas",
                 "viewState": {
-                  "x": -185,
-                  "y": -110,
-                  "zoom": -0.05107418459426929
+                  "x": 466.1428217155426,
+                  "y": -50.017951379205954,
+                  "zoom": -0.6401052822429658
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Stats"
+              "title": "Races"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Class",
+                "query": "tag:#Bone",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,12 +178,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5eea31bc6e9d393",
+  "active": "fd3d961266c117da",
   "lastOpenFiles": [
+    "Commoners/Stats.canvas",
+    "Commoners/Transformations.canvas",
+    "Commoners/Races.canvas",
+    "Commoners/Character Sheet/character-sheet.pdf",
     "Commoners/Character Sheet",
     "Commoners/canvas-export.html",
     "Adora I/Stats.canvas",
-    "Commoners/Stats.canvas",
     "Adora I",
     "Commoners",
     "Untitled.canvas",
@@ -245,8 +199,6 @@
     "Documents/Chartacter Sheet.afpub~lock~",
     "Adora I/Documents/Chartacter Sheet.afpub",
     "Adora I/Documents",
-    "New folder",
-    "Adora I/Card Creators/ActionCardsTemplate.pdf",
     "Adora I/Card Creators/Bamboozle.png",
     "Adora I/Card Creators/Bobbert.png",
     "Adora I/Card Creators/EVADE_Old.png",
@@ -269,7 +221,6 @@
     "Adora I/Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
     "Adora I/Classes/Performer/Flow.md",
     "Adora I/Classes/Performer/Composition.md",
-    "Adora I/Classes/Performer/Troubadour/Troubadour.canvas",
     "Adora I/Classes/Performer/Flow_Penalty.md",
     "Adora I/Religion/Source.md",
     "Adora I/Classes/Fighter (Brute)/Fighter_Class_Bonuses.md",

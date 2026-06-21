@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"266915d7c501c8b4","type":"text","text":"__Human__\nVery adaptable, humans tend to be everywhere you find people.\n#race","x":-418,"y":-254,"width":298,"height":134},
+		{"id":"4ea27dc1c138adeb","type":"text","text":"__Razorback__\nHumanoid, with green scales and reptilian features, razorbacks have a row of razor sharp bone-like protrusions that run along the spine and along the shoulders to the wrist. They are unusual enough to invoke stares in most taverns but not enough to be considered monsters. Usually.\n#race","x":-60,"y":-254,"width":320,"height":334},
+		{"id":"40bf0e5b63cd6e8b","type":"text","text":"###### Bone Armor\nAttackers who deal damage to a razorback with a melee natural weapon (fists, teeth, etc) take (Level / 2 rounded up) piercing damage.\n#passive #racial","x":-25,"y":140,"width":250,"height":220},
+		{"id":"d18613f7fbe271a1","type":"text","text":"###### Natural Learners\n\nAfter observing a skilled man work his craft for 30 mins, a human can approximate his skill to some degree of accuracy. The skill increase to 1/4 of the source's skill (min of 2) for 12 hours\n#passive #racial","x":-408,"y":-40,"width":278,"height":290},
+		{"id":"36c6a091bb8f8005","type":"text","text":"__Dwarf__\nDwarfs are sturdy folk. While they do live in most places, they tend to think fondly of stories of vast caverns and hoarded wealth. Their small stature has caused some to think of them as a \"lesser race\", though such things are usually laughed at in these parts. \n#race","x":320,"y":-254,"width":280,"height":314},
+		{"id":"077623292a1bbf48","type":"text","text":"###### Sturdy\nAdd CON bonus twice to HP at each level.\n#passive #racial\n","x":335,"y":105,"width":250,"height":145},
+		{"id":"9ac355e1d4a5d481","x":680,"y":-254,"width":275,"height":294,"type":"text","text":"__Sylvan__\nSylvans are pale and slightly green tinted humanoids. They are tall, lithe, with large, black eyes and tall pointed ears. Something about them tends makes other folk think of them as regal or condescending, perhaps both.\n#race"},
+		{"id":"e87001a44d3c7dfb","type":"text","text":"###### Domineering\nWhen making a social check, add (Level / 2 rounded up)\n#passive #racial","x":693,"y":105,"width":250,"height":145},
+		{"id":"639b545e85587a34","x":1040,"y":-254,"width":300,"height":214,"type":"text","text":"Beorn\nBear-folk are hulking people who kinda look like bipedal bears with furry hands and feet. They look enough like the animal that it can freak some people out.\n#race"},
+		{"id":"7bc6f39d4281c44b","x":1052,"y":38,"width":276,"height":212,"type":"text","text":"###### Natural Cammo\nWhen in or nearby the wilderness, Beorn gain (Level * 2) bonus to stealth. When far from nature, however, they subtract (Level) from stealth."}
+	],
+	"edges":[
+		{"id":"07082062ce24f556","fromNode":"4ea27dc1c138adeb","fromSide":"bottom","toNode":"40bf0e5b63cd6e8b","toSide":"top"},
+		{"id":"140b0a572e890591","fromNode":"266915d7c501c8b4","fromSide":"bottom","toNode":"d18613f7fbe271a1","toSide":"top"},
+		{"id":"6339edbf8a0d2341","fromNode":"36c6a091bb8f8005","fromSide":"bottom","toNode":"077623292a1bbf48","toSide":"top"},
+		{"id":"56683b2d62f4818f","fromNode":"9ac355e1d4a5d481","fromSide":"bottom","toNode":"e87001a44d3c7dfb","toSide":"top"},
+		{"id":"6ec747dd023df5ab","fromNode":"639b545e85587a34","fromSide":"bottom","toNode":"7bc6f39d4281c44b","toSide":"top"}
+	]
+}
