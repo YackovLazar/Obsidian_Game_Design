@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"64dcfb6444999249","type":"text","text":"Farmer\n- Major skills\n\t- Nature\n\t- Athletics\n\t- Insight\n- Minor Skills\n\t- Alchemy\n\t- Engineering","x":-509,"y":-472,"width":349,"height":272},
+		{"id":"3f11a4ae31a8a79a","x":-509,"y":-160,"width":349,"height":620,"type":"text","text":"Farmer Sets\n\n- Thresher\n\t- Two-handed scythe\n\t- Leather apron and gloves\n- Butcher\n\t- Dual-wield meat cleavers\n\t- Leather apron and gloves\n- Johnny\n\t- One-handed woodcutting axe\n\t- Improvised door shield\n\t- Leather apron and gloves\n- Slinger\n\t- A sling and bucket of rocks/vegetables\n\t- Peeling knife\n\t- Leather apron and gloves\n- Wife beater\n\t- Fist and fore-arm wraps\n\t- Improvised bronze knuckles\n\t- Wife beater and Canvas pants"},
+		{"id":"451ee96aa8a0d9f0","x":-9,"y":-466,"width":329,"height":306,"type":"text","text":"Hunter\n\n- Major skills\n\t- Nature\n\t- Investigation\n\t- Stealth\n- Minor Skills\n\t- Insight\n\t- Athletics\n\t- Acrobatics"},
+		{"id":"068aa185d52b09d5","x":-9,"y":-120,"width":329,"height":460,"type":"text","text":"Hunter Sets\n\n- Trapper\n\t- Machete and net\n\t- Bear Traps\n\t- Fur armor\n- Bow Hunter\n\t- Short bow\n\t- Knife\n\t- Fur armor\n- Skinner\n\t- Dual-wield skinner's cleavers\n\t- Fur Armor\n- Bear Wrestler\n\t- Fur wraps and armor\n\t- Re-purposed bear claws"},
+		{"id":"8ed323e3edf95f45","x":460,"y":-466,"width":300,"height":306,"type":"text","text":"Merchant\n"}
+	],
+	"edges":[]
+}

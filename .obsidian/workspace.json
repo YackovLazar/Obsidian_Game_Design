@@ -8,20 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd3d961266c117da",
+            "id": "087a683d3cba754e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Commoners/Races.canvas",
+                "file": "Commoners/Professions.canvas",
                 "viewState": {
-                  "x": 466.1428217155426,
-                  "y": -50.017951379205954,
-                  "zoom": -0.6401052822429658
+                  "x": 182.1666259765625,
+                  "y": -27,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Races"
+              "title": "Professions"
             }
           }
         ]
@@ -178,12 +178,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd3d961266c117da",
+  "floating": {
+    "id": "142e5787c66d24fb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "dcc2b83b1345ac6c",
+        "type": "window",
+        "children": [
+          {
+            "id": "3f4d9624780ffee1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fd3d961266c117da",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Commoners/Stats.canvas",
+                    "viewState": {
+                      "x": -185,
+                      "y": -110,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Stats"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1034,
+        "y": 634,
+        "width": 600,
+        "height": 600,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "087a683d3cba754e",
   "lastOpenFiles": [
     "Commoners/Stats.canvas",
-    "Commoners/Transformations.canvas",
+    "Commoners/Professions.canvas",
     "Commoners/Races.canvas",
     "Commoners/Character Sheet/character-sheet.pdf",
+    "Commoners/Transformations.canvas",
     "Commoners/Character Sheet",
     "Commoners/canvas-export.html",
     "Adora I/Stats.canvas",
@@ -213,12 +256,10 @@
     "Adora I/Card Creators/FinalTextBox.png",
     "Adora I/Classes/Performer/Performer_Class_Bonuses.md",
     "Adora I/Classes/Sneak/Ideas.md",
-    "Adora I/Classes/Alchemist/Alchemist.canvas",
     "Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Sincere_Compliment.md",
     "Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Setup,_Knockdown.md",
     "Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Public Shaming.md",
     "Adora I/Classes/Performer/Troubadour/Troubadour Compositions/Backhanded_Compliment.md",
-    "Adora I/Classes/Performer/Troubadour/Troubadour Maneuvers/Maneuvers.canvas",
     "Adora I/Classes/Performer/Flow.md",
     "Adora I/Classes/Performer/Composition.md",
     "Adora I/Classes/Performer/Flow_Penalty.md",
